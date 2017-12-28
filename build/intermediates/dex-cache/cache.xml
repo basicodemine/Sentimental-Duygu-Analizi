@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.0.1/b34c1f2d993044656e87f88970b6818e99e886ba/okhttp-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/okhttp-3.0.1_6d572679103e7a24b27cea33725bfcbef608e97e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/8a37e23960300e869e9839e5f685695c06d4bfb0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="900a290779cdb4eb2e63b6f7806fd9f30ce4f60d">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_27758a8ba9606e1b5832e97673253d82470e8b48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/014c75cb867f796960ded7c22d86c7cc3748d2a5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_f3924970e46c6f2781fb9e9cb675450edc19b1b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/3a778d10593aee6fe3de8dde9af3c9fe0c4f7724/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_4b00f56c7947b9f2f76a52429d81d3e8fb0f1042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/fc0ce03a1bb005a90219e1967e5a12b1154af774/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7979972576b6dbb1688052e42e5199abb54f81ba">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_dfb53eac5ac2777735a77b45d50c27e56ef9eb9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/c9d85069befdd7d0e733cdcbcbc4f69c299d4af2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="69e74a8b1cbf5b8ee0fc0cca6bab1ac6c45efef8">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_f6762cb88cc6a0b35608166a0517d2f1b476a6f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/630602e183ced954a0a4645da643da5605702dc5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="164d3c7f55bae5ca275bce48b9ee827604c5f756">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_abc5e33e3f37b541fd21fa44f5f9408b3e9c823d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/okio-1.6.0_dd4d990f71d369206681e21edd5a264a2a029947.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.gradle/caches/modules-2/files-2.1/com.jakewharton.picasso/picasso2-okhttp3-downloader/1.0.2/74a586d03a233d356290983d1ef23a64c1d122b2/picasso2-okhttp3-downloader-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="74a586d03a233d356290983d1ef23a64c1d122b2">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/picasso2-okhttp3-downloader-1.0.2_867ca402925780fefabd701a5ec11291cdb4ec30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_2afb587e36cf92be88c220ba3ff936dcb5b2d644.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/glide-3.7.0_4ebd778be33fd1cea4cc2e1452f248c1139cbde1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/65a51ced8c3e5a7c917fea20d8560cdea318f80b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0c6924cbba8248329a8c58ead6a380efe7eee76e">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_6818ff626420cea9fa9c4bb3c4156dab2b4b07f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/a8d180fdcad0dc8ec74d2d32f77c4e669a78904a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="aa5161f8b81b112076f2d35b89498965550970e2">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_ad508d9178729b6acc9c6fa9208b506ede28b10f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/f447dfd4bdb0a1607e399cb10f4bb2b417637418/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_d5d2596b15173c0a4c4050488586604f5fb2952a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0_bdb2a142ac3cd7ba7c8475f7a9384096c96ee80a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/7266ea52b9e45ed5e03aaf0a8a24049ea8dcefb5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_466a5229acd21aa75362f4871abdbe88555288ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/6bf3751ae63e128e34add0e6c19c31092d1c388f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_ddf5524f665146cb052a3b3135a641985a8987c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eGo/.android/build-cache/58fba88250b222de0501d602c654cbeb7c6fdb34/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f0a85e6000998ac322ddd50750e8cf91601a84b">
+        <dex dex="/Users/eGo/Desktop/MobileVisionAPI-master/TwtitterAnaliz/app/build/intermediates/pre-dexed/debug/classes_a3050da2e4df6aec7099d17996f6304fd4d0c95b.jar" />
+    </item>
+
+</items>

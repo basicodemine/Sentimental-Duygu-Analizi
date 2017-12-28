@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/menuNavigation13menuNotificationNonActiveBg"
+        android:centerColor="@color/menuNavigation13menuNotificationNonActiveBg"
+        android:endColor="@color/menuNavigation13menuNotificationNonActiveBg"
+        android:angle="270" />
+    <corners android:radius="2dp" />
+    <stroke android:width="3px" android:color="@color/menuNavigation13menuNotificationNonActiveBg" />
+</shape>

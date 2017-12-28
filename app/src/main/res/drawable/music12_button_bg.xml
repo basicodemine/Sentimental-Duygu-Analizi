@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <size android:height="54dp" android:width="54dp"/>
+    <solid android:color="@color/music4seek" />
+    <corners android:radius="27dp" />
+
+</shape>

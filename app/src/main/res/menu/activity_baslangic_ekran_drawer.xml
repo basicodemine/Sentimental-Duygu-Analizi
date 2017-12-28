@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tweets"
+            android:icon="@drawable/twticon"
+            android:title="Kişi Tweetleri" />
+        <item
+            android:id="@+id/nav_takim"
+            android:icon="@drawable/football_in_midair"
+            android:title="Takım Analizi" />
+        <item
+            android:id="@+id/nav_mutluluk"
+            android:icon="@drawable/sana"
+            android:title="Mutluluk Analizi" />
+        <item
+            android:id="@+id/nav_sanat"
+            android:icon="@drawable/sana"
+            android:title="Sanat Analizi" />
+        <item
+            android:id="@+id/nav_etkilesim"
+            android:icon="@drawable/kankalar"
+            android:title="Etkileşim Analizi" />
+    </group>
+
+    <item android:title="Ekstra">
+        <menu>
+            <item
+                android:id="@+id/nav_hakkinda"
+                android:icon="@drawable/ayarlar"
+                android:title="Proje Hakkında" />
+            <item
+                android:id="@+id/nav_cikis"
+                android:icon="@drawable/cikis"
+                android:title="Çıkış" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:startColor="@color/menuNavigation2menuBg"
+        android:centerColor="@color/menuNavigation2menuBg"
+        android:endColor="@color/menuNavigation2menuBg"
+        android:angle="270" />
+</shape>

@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">Veri Analizi</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-7287003020531388/4190042558</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_shoping">Shopping Cart</string>
+    <string name="action_search">Search</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, tritani suscipit sea id. Dico eloquentiam et sea, movet intellegam at pri. In vis natum gubergren efficiendi. Esse integre vivendum nec te. Modus iusto sententiae duo ut, mei iudico graeci nostrud eu, mundi exerci repudiare ei pri. Mundi alterum facilisi ne mel, quas placerat hendrerit ei mea, hinc habeo illud ei pri.</string>
+    <string name="lorem_ipsum2">An verear theophrastus delicatissimi cum. In cum ancillae convenire. Est ne omnes causae corrumpit, eum duis sententiae necessitatibus te, mollis.</string>
+    <string name="lorem_ipsum3">Lorem ipsum dolor sit amet, vel at aeque graeci intellegat. Modus utinam mea ei, ut illum ponderum vim. Ridens tractatos.</string>
+    <string name="lorem_ipsum4">Possim discere alienum qui ei, per ex moderatius vituperatoribus. Justo consul minimum eum.</string>
+    <string name="twitter_consumer_key">jWehsNnSG5xy1bGfSQhgmgEZI</string>
+    <string name="twitter_consumer_secret">wMzA7zTf7GPkyeWeezbq2c4gQ3VXNER0npbmdZG6iREg7TlMvA</string>
+    <string name="instagram_token">5571744371.14d5057.ed4a5fcec0594f4ea68664c2340308e8</string>
+    <string name="youtube_api_key">AIzaSyBQjpE3RBtPm9PyquAMbhNCMkaYzhHpjbI</string>
+    <string name="tumblr_api_key">57gBN0owYvjhhe0uMnAXin64vnZlHECqgTTXZyxWy7b94WyGyH</string>
+
+    <!--==========================================================================================-->
+    <!--Login and Signup Category-->
+    <!--==========================================================================================-->
+    <string-array name="login_signup_menu">
+        <item>Sign Up Style 1</item>
+        <item>Sign Up Style 2</item>
+        <item>Sign Up Style 3</item>
+        <item>Sign Up Style 4</item>
+        <item>Sign Up Style 5</item>
+        <item>Sign Up Style 6</item>
+        <item>Sign Up Style 7</item>
+        <item>Sign Up Style 8</item>
+        <item>Sign Up Style 9</item>
+        <item>Sign Up Style 10</item>
+        <item>Sign In Style 1</item>
+        <item>Sign In Style 2</item>
+        <item>Sign In Style 3</item>
+        <item>Sign In Style 4</item>
+        <item>Sign In Style 5</item>
+        <item>Sign In Style 6</item>
+        <item>Sign In Style 7</item>
+        <item>Sign In Style 8</item>
+        <item>Sign In Style 9</item>
+        <item>Sign In Style 10</item>
+        <item>Welcome Screen Style 1</item>
+        <item>Welcome Screen Style 2</item>
+        <item>Welcome Screen Style 3</item>
+        <item>Reset Password</item>
+        <item>Verify Account</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--Menu Category-->
+    <!--==========================================================================================-->
+    <string-array name="menu_menu">
+        <item>Menu Style 1</item>
+        <item>Menu Style 2</item>
+        <item>Menu Style 3</item>
+        <item>Menu Style 4</item>
+        <item>Menu Style 5</item>
+        <item>Menu Style 6</item>
+        <item>Menu Style 7</item>
+        <item>Menu Style 8</item>
+        <item>Menu Style 9</item>
+        <item>Menu Style 10</item>
+        <item>Menu Style 11</item>
+        <item>Menu Style 12</item>
+        <item>Menu Style 13</item>
+        <item>Menu Style 14</item>
+        <item>Menu Style 15</item>
+        <item>Menu Style 16</item>
+        <item>Menu Style 17</item>
+        <item>Menu Style 18</item>
+        <item>Menu Style 19</item>
+        <item>Menu Style 20</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--Profile Category-->
+    <!--==========================================================================================-->
+    <string-array name="profile_menu">
+        <item>Profile Style 1</item>
+        <item>Profile Style 2</item>
+        <item>Profile Style 3</item>
+        <item>Profile Style 4</item>
+        <item>Profile Style 5</item>
+        <item>Profile Style 6</item>
+        <item>Profile Style 7</item>
+        <item>Profile Style 8</item>
+        <item>Profile Style 9</item>
+        <item>Profile Style 10</item>
+        <item>Profile Style 11</item>
+        <item>Profile Style 12</item>
+        <item>Profile Style 13</item>
+        <item>Profile Style 14</item>
+        <item>Profile Style 15</item>
+        <item>Profile Style 16</item>
+        <item>Profile Style 17</item>
+        <item>Profile Style 18</item>
+        <item>Profile Style 19</item>
+        <item>Profile Style 20</item>
+        <item>Profile Style 21</item>
+        <item>Profile Style 22</item>
+        <item>Profile Style 23</item>
+        <item>Profile Style 24</item>
+        <item>Profile Style 25</item>
+        <item>Profile Style 26</item>
+        <item>Profile Style 27</item>
+        <item>Profile Style 28</item>
+        <item>Profile Style 29</item>
+        <item>Profile Style 30</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Profile Category-->
+    <!--==========================================================================================-->
+    <string-array name="walktrought_menu">
+        <item>Walkthrough Style 1</item>
+        <item>Walkthrough Style 2</item>
+        <item>Walkthrough Style 3</item>
+        <item>Walkthrough Style 4</item>
+        <item>Walkthrough Style 5</item>
+        <item>Walkthrough Style 6</item>
+        <item>Walkthrough Style 7</item>
+        <item>Walkthrough Style 8</item>
+        <item>Walkthrough Style 9</item>
+        <item>Walkthrough Style 10</item>
+        <item>Walkthrough Style 11</item>
+        <item>Walkthrough Style 12</item>
+        <item>Walkthrough Style 13</item>
+        <item>Walkthrough Style 14</item>
+        <item>Walkthrough Style 15</item>
+        <item>Walkthrough Style 16</item>
+        <item>Walkthrough Style 17</item>
+        <item>Walkthrough Style 18</item>
+        <item>Walkthrough Style 19</item>
+        <item>Walkthrough Style 20</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Activity Category-->
+    <!--==========================================================================================-->
+    <string-array name="activity_menu">
+        <item>Activity Style 1</item>
+        <item>Activity Style 2</item>
+        <item>Activity Style 3</item>
+        <item>Activity Style 4</item>
+        <item>Activity Style 5</item>
+        <item>Activity Style 6</item>
+        <item>Activity Style 7</item>
+        <item>Activity Style 8</item>
+        <item>Activity Style 9</item>
+        <item>Activity Style 10</item>
+        <item>Activity Style 11</item>
+        <item>Activity Style 12</item>
+        <item>Activity Style 13</item>
+        <item>Activity Style 14</item>
+        <item>Activity Style 15</item>
+        <item>Activity Style 16</item>
+        <item>Activity Style 17</item>
+        <item>Activity Style 18</item>
+        <item>Activity Style 19</item>
+        <item>Activity Style 20</item>
+        <item>Activity Style 21</item>
+        <item>Activity Style 22</item>
+        <item>Activity Style 23</item>
+        <item>Activity Style 24</item>
+        <item>Activity Style 25</item>
+        <item>Activity Style 26</item>
+        <item>Activity Style 27</item>
+        <item>Activity Style 28</item>
+        <item>Activity Style 29</item>
+        <item>Activity Style 30</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Gallery Category-->
+    <!--==========================================================================================-->
+    <string-array name="gallery_menu">
+        <item>Gallery Style 1</item>
+        <item>Gallery Style 2</item>
+        <item>Gallery Style 3</item>
+        <item>Gallery Style 4</item>
+        <item>Gallery Style 5</item>
+        <item>Gallery Style 6</item>
+        <item>Gallery Style 7</item>
+        <item>Gallery Style 8</item>
+        <item>Gallery Style 9</item>
+        <item>Gallery Style 10</item>
+        <item>Gallery Style 11</item>
+        <item>Gallery Style 12</item>
+        <item>Gallery Style 13</item>
+        <item>Gallery Style 14</item>
+        <item>Gallery Style 15</item>
+        <item>Gallery Style 16</item>
+        <item>Gallery Style 17</item>
+        <item>Gallery Style 18</item>
+        <item>Gallery Style 19</item>
+        <item>Gallery Style 20</item>
+        <item>Gallery Style 21</item>
+        <item>Gallery Style 22</item>
+        <item>Gallery Style 23</item>
+        <item>Gallery Style 24</item>
+        <item>Gallery Style 25</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Gallery Category-->
+    <!--==========================================================================================-->
+    <string-array name="ecommerce_menu">
+        <item>Ecommerce Style 1</item>
+        <item>Ecommerce Style 2</item>
+        <item>Ecommerce Style 3</item>
+        <item>Ecommerce Style 4</item>
+        <item>Ecommerce Style 5</item>
+        <item>Ecommerce Style 6</item>
+        <item>Ecommerce Style 7</item>
+        <item>Ecommerce Style 8</item>
+        <item>Ecommerce Style 9</item>
+        <item>Ecommerce Style 10</item>
+        <item>Ecommerce Style 11</item>
+        <item>Ecommerce Style 12</item>
+        <item>Ecommerce Style 13</item>
+        <item>Ecommerce Style 14</item>
+        <item>Ecommerce Style 15</item>
+        <item>Ecommerce Style 16</item>
+        <item>Ecommerce Style 17</item>
+        <item>Ecommerce Style 18</item>
+        <item>Ecommerce Style 19</item>
+        <item>Ecommerce Style 20</item>
+        <item>Ecommerce Style 21</item>
+        <item>Ecommerce Style 22</item>
+        <item>Ecommerce Style 23</item>
+        <item>Ecommerce Style 24</item>
+        <item>Ecommerce Style 25</item>
+        <item>Ecommerce Style 26</item>
+        <item>Ecommerce Style 27</item>
+        <item>Ecommerce Style 28</item>
+        <item>Ecommerce Style 29</item>
+        <item>Ecommerce Style 30</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Extra Design Category-->
+    <!--==========================================================================================-->
+    <string-array name="extradesign_menu">
+        <item>Modal Dialog Style 1</item>
+        <item>Modal Dialog Style 2</item>
+        <item>Modal Dialog Style 3</item>
+        <item>Left Menu Light</item>
+        <item>Left Menu With Icons</item>
+        <item>Left Menu Dark</item>
+        <item>Left Menu Social</item>
+        <item>Checkbox Light Style</item>
+        <item>Checkbox Dark Style</item>
+        <item>Text Light Style</item>
+        <item>Text Dark Style</item>
+        <item>Search Style 1</item>
+        <item>Search Style 2</item>
+        <item>Search Style 3</item>
+    </string-array>
+    <!--==========================================================================================-->
+    <!--Music Category-->
+    <!--==========================================================================================-->
+    <string-array name="music_menu">
+        <item>Music Style 1</item>
+        <item>Music Style 2</item>
+        <item>Music Style 3</item>
+        <item>Music Style 4</item>
+        <item>Music Style 5</item>
+        <item>Music Style 6</item>
+        <item>Music Style 7</item>
+        <item>Music Style 8</item>
+        <item>Music Style 9</item>
+        <item>Music Style 10</item>
+        <item>Music Style 11</item>
+        <item>Music Style 12</item>
+        <item>Music Style 13</item>
+        <item>Music Style 14</item>
+    </string-array>
+    <string name="title_activity_profile_style5">Profile</string>
+
+    <string-array name="dummy_lyric">
+        <item>Ex omnes putent adipiscing quo.</item>
+        <item>Ex pri suas discere eruditi.</item>
+        <item>Equidem eligendi sit no, purto.</item>
+        <item>Id nostrud vulputate posidonium pri.</item>
+        <item>Ex natum tamquam cum quidam.</item>
+        <item>Deleniti pericula persequeris ex pro.</item>
+        <item>In ubique graeci vix cu.</item>
+        <item>Liber ornatus an mel, eu.</item>
+        <item>Ius summo dissentiet eu natum.</item>
+        <item>Ut vocibus platonem quaerendum eos.</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--News Category-->
+    <!--==========================================================================================-->
+    <string-array name="news_menu">
+        <item>News Style 1</item>
+        <item>News Style 2</item>
+        <item>News Style 3</item>
+        <item>News Style 4</item>
+        <item>News Style 5</item>
+        <item>News Style 6</item>
+        <item>News Style 7</item>
+    </string-array>
+
+    <!--==========================================================================================-->
+    <!--Content Category-->
+    <!--==========================================================================================-->
+    <string-array name="content_menu">
+        <item>Wordpress</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+        <item>Youtube</item>
+        <item>Tumblr</item>
+    </string-array>
+    <string name="title_activity_baslangic_ekran">BaslangicEkran</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

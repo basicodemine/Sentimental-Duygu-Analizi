@@ -1,0 +1,3305 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MainMenuLeftButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ButtonOrange" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_orange</item>
+    </style>
+
+    <style name="ButtonWhite" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_white</item>
+    </style>
+
+    <style name="ButtonBlue" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_blue</item>
+    </style>
+
+    <style name="ButtonGreen" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_green</item>
+    </style>
+
+    <style name="ButtonGray" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_gray</item>
+    </style>
+
+    <style name="ButtonMagenta" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_magenta</item>
+    </style>
+
+    <style name="ButtonYellow" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_yellow</item>
+    </style>
+
+    <style name="loveRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/love_bar</item>
+        <item name="android:minHeight">26dp</item>
+        <item name="android:maxHeight">26dp</item>
+    </style>
+
+    <style name="MainButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:paddingStart">22dp</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- LOGIN AND SIGNUP CATEGORY -->
+    <!--==========================================================================================-->
+    <!--style 1-->
+    <style name="LoginSignUp1Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/loginSignup1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup1colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup1colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp1Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 2-->
+    <style name="LoginSignUp2Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup2colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="LoginSignUp2Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 3-->
+    <style name="LoginSignUp3Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup3colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="LoginSignUp3Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/loginsignup3_input_bg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/loginSignup3InputHint</item>
+    </style>
+
+    <!--style 4-->
+    <style name="LoginSignUp4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup4colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup4colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp4TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp4Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 5-->
+    <style name="LoginSignUp5Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/loginSignup5colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="LoginSignUp5TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/loginSignup5colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextColor">@android:color/black</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp5Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 6-->
+    <style name="LoginSignUp6Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/loginSignup6colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="LoginSignUp6TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <!--style 7-->
+    <style name="LoginSignUp7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup7colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup7colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp7TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp7Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 8-->
+    <style name="LoginSignUp8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup8colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup8colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp8TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp8Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 9-->
+    <style name="LoginSignUp9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup9colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup9colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp9TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp9Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 10-->
+    <style name="LoginSignUp10Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/loginSignup10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup10colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup10colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp10Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 11-->
+    <style name="LoginSignUp11Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/loginSignup11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup11colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup11colorAccent</item>
+    </style>
+
+    <!--style 12-->
+    <style name="LoginSignUp12Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup12colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 13-->
+    <style name="LoginSignUp13Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup13colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@color/loginSignup13colorNormal</item>
+    </style>
+
+    <style name="LoginSignUp13Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/loginsignup3_input_bg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/loginSignup13colorNormal</item>
+    </style>
+
+    <!--style 14-->
+    <style name="LoginSignUp14Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup14colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup14colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp14TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp14Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 15-->
+    <style name="LoginSignUp15Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup15colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="LoginSignUp15TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/loginSignup5colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextColor">@android:color/black</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 16-->
+    <style name="LoginSignUp16Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup16colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="LoginSignUp16TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <!--style 17-->
+    <style name="LoginSignUp17Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup17colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup17colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup17colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp17TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 18-->
+    <style name="LoginSignUp18Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup18colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup18colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup18colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp18TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="LoginSignUp18Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@color/loginSignup2InputBg</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 19-->
+    <style name="LoginSignUp19Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup19colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup19colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp19TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 20-->
+    <style name="LoginSignUp20Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/loginSignup20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup20colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup20colorAccent</item>
+    </style>
+
+    <!--style 21-->
+    <style name="LoginSignUp21Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup21colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup21colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup21colorAccent</item>
+    </style>
+
+    <!--style 22-->
+    <style name="LoginSignUp22Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/loginSignup22colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup22colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup22colorAccent</item>
+    </style>
+
+    <!--style 23-->
+    <style name="LoginSignUp23Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/LoginSignup23colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 24-->
+    <style name="LoginSignUp24Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/loginSignup24colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup24colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup24colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp24Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 25-->
+    <style name="LoginSignUp25Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/loginSignup25colorPrimary</item>
+        <item name="colorPrimaryDark">@color/loginSignup25colorPrimaryDark</item>
+        <item name="colorAccent">@color/loginSignup25colorAccent</item>
+    </style>
+
+    <style name="LoginSignUp25Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- MENU NAVIGATION CATEGORY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="MenuNavigation1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation1colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation1colorAccent</item>
+    </style>
+
+    <!--style 2-->
+    <style name="MenuNavigation2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation2colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation2colorAccent</item>
+    </style>
+
+    <style name="MenuNavigation2Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/menunavigation_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="MenuNavigation2ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+    </style>
+
+    <!--style 3-->
+    <style name="MenuNavigation3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation3colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation3colorAccent</item>
+    </style>
+
+    <style name="MenuNavigation3ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--style 4-->
+    <style name="MenuNavigation4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation4colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation4colorAccent</item>
+    </style>
+
+    <style name="MenuNavigation4ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">62dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <!--style 5-->
+    <style name="MenuNavigation5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation5colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation5colorAccent</item>
+    </style>
+
+    <style name="MenuNavigation5ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/menuNavigation5menuFont</item>
+    </style>
+
+    <!--style 6-->
+    <style name="MenuNavigation6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation6colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation6colorAccent</item>
+    </style>
+
+    <style name="MenuNavigation6ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--style 7-->
+    <style name="MenuNavigation7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation7colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation7colorAccent</item>
+    </style>
+
+    <!--style 8-->
+    <style name="MenuNavigation8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation8colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation8colorAccent</item>
+    </style>
+
+    <!--style 9-->
+    <style name="MenuNavigation9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation9colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation9colorAccent</item>
+    </style>
+
+    <!--style 10-->
+    <style name="MenuNavigation10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation2colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation2colorAccent</item>
+    </style>
+
+    <!--style 11-->
+    <style name="MenuNavigation11Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation11colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation11colorAccent</item>
+    </style>
+
+    <!--style 12-->
+    <style name="MenuNavigation12Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation12colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation12colorAccent</item>
+    </style>
+
+    <!--style 13-->
+    <style name="MenuNavigation13Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation13colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation13colorAccent</item>
+    </style>
+
+    <!--style 14-->
+    <style name="MenuNavigation14Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation14colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation14colorAccent</item>
+    </style>
+
+    <!--style 15-->
+    <style name="MenuNavigation15Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation15colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation15colorAccent</item>
+    </style>
+
+    <style name="MenuNavigation15ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MenuNavigation15Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textCursorDrawable">@drawable/menunavigation_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!--style 16-->
+    <style name="MenuNavigation16Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation16colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation16colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation16colorAccent</item>
+    </style>
+
+    <!--style 17-->
+    <style name="MenuNavigation17Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation17colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation17colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation17colorAccent</item>
+    </style>
+
+    <!--style 18-->
+    <style name="MenuNavigation18Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation18colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation18colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation18colorAccent</item>
+    </style>
+
+    <!--style 19-->
+    <style name="MenuNavigation19Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation19colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation19colorAccent</item>
+    </style>
+
+    <!--style 20-->
+    <style name="MenuNavigation20Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigation20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigation20colorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigation20colorAccent</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- PROFILE CATEGORY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Profile1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile1colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile1colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile1TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/profile1colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile1NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile1NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Profile1ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 2-->
+    <style name="Profile2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile2colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile2colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile2TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/profile2colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile2NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile2NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Profile2ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 3-->
+    <style name="Profile3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/profile3colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile3ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Profile4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile4colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile4colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile4TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/profile2colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile2NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile4NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Profile4ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 5-->
+    <style name="Profile5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile5colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile5colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+
+    <!--style 6-->
+    <style name="Profile6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile6colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile6colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile6TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/profile2colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile2NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile6NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--style 7-->
+    <style name="Profile7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile7colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile7colorAccent</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Profile8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile8colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile8colorAccent</item>
+    </style>
+
+    <!--style 9-->
+    <style name="Profile9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile9colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile9colorAccent</item>
+    </style>
+
+    <!--style 10-->
+    <style name="Profile10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile10colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile10colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile10TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile10colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/Profile10NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile10NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--style 11-->
+    <style name="Profile11Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile11colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile11colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile11TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile11colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/Profile11NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile11NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--style 12-->
+    <style name="Profile12Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile12colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile12colorAccent</item>
+    </style>
+
+    <style name="Profile12FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">66dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 13-->
+    <style name="Profile13Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile13colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile13colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile13TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile13colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/Profile13NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile13NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Profile13FabAddStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="Profile13FabShareStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_share_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="Profile13FabLoveStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_love_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 14-->
+    <style name="Profile14Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile14colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile14colorAccent</item>
+    </style>
+
+    <style name="Profile14FabAddStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="Profile14FabShareStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_share_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 15-->
+    <style name="Profile15Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile15colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile15colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile15TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile15background</item>
+        <item name="tabIndicatorColor">@color/profile2colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile15NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile15NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Profile15FabAddStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="Profile15FabShareStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_share_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 16-->
+    <style name="Profile16Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile16colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile16colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile16colorAccent</item>
+    </style>
+
+    <style name="Profile16FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:src">@drawable/ic_edit_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 17-->
+    <style name="Profile17Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile17colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile17colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile17colorAccent</item>
+    </style>
+
+    <style name="Profile17ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarTrackHorizontal">@android:color/transparent</item>
+        <item name="android:scrollbarSize">0dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <style name="Profile17FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">66dp</item>
+        <item name="android:layout_marginBottom">36dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 18-->
+    <style name="Profile18Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile18colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile18colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile18colorAccent</item>
+    </style>
+
+    <style name="Profile18ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <style name="Profile18FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 19-->
+    <style name="Profile19Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile19colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile19colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile19TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile19colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 20-->
+    <style name="Profile20Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile20colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile20colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile20TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile20colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 21-->
+    <style name="Profile21Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile21colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile21colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile21colorAccent</item>
+    </style>
+
+    <style name="Profile21ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 22-->
+    <style name="Profile22Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile22colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile22colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile22colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile22TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile22colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 23-->
+    <style name="Profile23Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile23colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile23colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile23colorAccent</item>
+    </style>
+
+    <!--style 24-->
+    <style name="Profile24Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile24colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile24colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile24colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile24TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@color/profile24colorPrimary</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 25-->
+    <style name="Profile25Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile25colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile25colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile25colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile25TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/profile25colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile25NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile25NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--style 26-->
+    <style name="Profile26Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile26colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile26colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile26colorAccent</item>
+    </style>
+
+    <!--style 27-->
+    <style name="Profile27Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile27colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile27colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile27colorAccent</item>
+    </style>
+
+    <style name="Profile27FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">66dp</item>
+        <item name="android:layout_marginBottom">36dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 28-->
+    <style name="Profile28Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile28colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile28colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile28colorAccent</item>
+    </style>
+
+    <!--style 28-->
+    <style name="Profile29Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile29colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile29colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile29colorAccent</item>
+    </style>
+
+    <!--style 30-->
+    <style name="Profile30Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/profile30colorPrimary</item>
+        <item name="colorPrimaryDark">@color/profile30colorPrimaryDark</item>
+        <item name="colorAccent">@color/profile30colorAccent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+    <style name="Profile30TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@color/profile30colorPrimary</item>
+        <item name="tabSelectedTextColor">@android:color/black</item>
+        <item name="tabTextAppearance">@style/Profile30NavigationTabTextAppeareance</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Profile30NavigationTabTextAppeareance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Profile30ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!--WIZARD / WALKTHROUGH-->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Walkthrough1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough1colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough1colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 2-->
+    <style name="Walkthrough2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/walkthrough2colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 3-->
+    <style name="Walkthrough3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough3colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough3colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Walkthrough4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough4colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough4colorAccent</item>
+    </style>
+
+    <!--style 5-->
+    <style name="Walkthrough5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough5colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough5colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 6-->
+    <style name="Walkthrough6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough6colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough6colorAccent</item>
+    </style>
+
+    <!--style 7-->
+    <style name="Walkthrough7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough7colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough7colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Walkthrough8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough8colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough8colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 9-->
+    <style name="Walkthrough9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough9colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough9colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 10-->
+    <style name="Walkthrough10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough10colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough10colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 11-->
+    <style name="Walkthrough11Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough11colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough11colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 12-->
+    <style name="Walkthrough12Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough12colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough12colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 13-->
+    <style name="Walkthrough13Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough13colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough13colorAccent</item>
+    </style>
+
+    <!--style 14-->
+    <style name="Walkthrough14Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough14colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough14colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 15-->
+    <style name="Walkthrough15Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough15colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough15colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 16-->
+    <style name="Walkthrough16Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough16colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough16colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough16colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 17-->
+    <style name="Walkthrough17Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough17colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough17colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough17colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 18-->
+    <style name="Walkthrough18Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough18colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough18colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough18colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 19-->
+    <style name="Walkthrough19Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough19colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough19colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--style 20-->
+    <style name="Walkthrough20Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/walkthrough20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/walkthrough20colorPrimaryDark</item>
+        <item name="colorAccent">@color/walkthrough20colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- ACTIVITY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Activity1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity1colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity1colorAccent</item>
+    </style>
+
+    <!--style 2-->
+    <style name="Activity2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity2colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity2colorAccent</item>
+    </style>
+
+    <!--style 3-->
+    <style name="Activity3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity3colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity3colorAccent</item>
+    </style>
+
+    <style name="Activity3TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Activity4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity4colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity4colorAccent</item>
+    </style>
+
+    <!--style 5-->
+    <style name="Activity5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity5colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity5colorAccent</item>
+    </style>
+
+    <!--style 6-->
+    <style name="Activity6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity6colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity6colorAccent</item>
+    </style>
+
+    <style name="Activity6ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 7-->
+    <style name="Activity7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity7colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity7colorAccent</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Activity8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity8colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity8colorAccent</item>
+    </style>
+
+    <!--style 9-->
+    <style name="Activity9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity9colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity9colorAccent</item>
+    </style>
+
+    <style name="Activity9Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 10-->
+    <style name="Activity10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 11-->
+    <style name="Activity11Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity11colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity11colorAccent</item>
+    </style>
+
+    <style name="Activity11FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:src">@drawable/ic_add_floating</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 12-->
+    <style name="Activity12Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity12colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity12colorAccent</item>
+    </style>
+
+    <style name="Activity12ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 13-->
+    <style name="Activity13Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity13colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity13colorAccent</item>
+    </style>
+
+    <style name="Activity13TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 14-->
+    <style name="Activity14Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity14colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity14colorAccent</item>
+    </style>
+
+    <style name="Activity14TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <style name="Activity14ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 15-->
+    <style name="Activity15Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity15colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity15colorAccent</item>
+    </style>
+
+    <!--style 16-->
+    <style name="Activity16Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity16colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity16colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity16colorAccent</item>
+    </style>
+
+    <style name="Activity16Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/activity16InputChatBackground</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 17-->
+    <style name="Activity17Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity17colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity17colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity17colorAccent</item>
+    </style>
+
+    <style name="Activity17TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 18-->
+    <style name="Activity18Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/activity18colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 19-->
+    <style name="Activity19Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity19colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity19colorAccent</item>
+    </style>
+
+    <style name="Activity19ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 20-->
+    <style name="Activity20Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity20colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity20colorAccent</item>
+    </style>
+
+    <!--style 21-->
+    <style name="Activity21Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity21colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity21colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity21colorAccent</item>
+    </style>
+
+    <!--style 22-->
+    <style name="Activity22Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity22colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity22colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity22colorAccent</item>
+    </style>
+
+    <style name="Activity22Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <style name="Activity22ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 23-->
+    <style name="Activity23Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity23colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity23colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity23colorAccent</item>
+    </style>
+
+    <style name="Activity23ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 24-->
+    <style name="Activity24Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity24colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity24colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity24colorAccent</item>
+    </style>
+
+    <style name="Activity24ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 25-->
+    <style name="Activity25Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity25colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity25colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity25colorAccent</item>
+    </style>
+
+    <style name="Activity25ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 26-->
+    <style name="Activity26Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity26colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity26colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity26colorAccent</item>
+    </style>
+
+    <style name="Activity26ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <style name="Activity26Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 27-->
+    <style name="Activity27Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity27colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity27colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity27colorAccent</item>
+    </style>
+
+    <style name="Activity27ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <style name="Activity27Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 28-->
+    <style name="Activity28Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/activity28colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Activity28Input">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 29-->
+    <style name="Activity29Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity29colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity29colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity29colorAccent</item>
+    </style>
+
+    <style name="Activity29ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 30-->
+    <style name="Activity30Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/activity30colorPrimary</item>
+        <item name="colorPrimaryDark">@color/activity30colorPrimaryDark</item>
+        <item name="colorAccent">@color/activity30colorAccent</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- GALLERY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Gallery1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery1colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery1colorAccent</item>
+    </style>
+
+    <style name="Gallery1crollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 2-->
+    <style name="Gallery2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery2colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery2colorAccent</item>
+    </style>
+
+    <style name="Gallery2ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarTrackHorizontal">@android:color/transparent</item>
+        <item name="android:scrollbarSize">0dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 3-->
+    <style name="Gallery3Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gallery3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery3colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery3colorAccent</item>
+    </style>
+
+    <style name="Gallery3ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Gallery4Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gallery4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery4colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery4colorAccent</item>
+    </style>
+
+    <!--style 5-->
+    <style name="Gallery5Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gallery5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery5colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery5colorAccent</item>
+    </style>
+
+    <!--style 6-->
+    <style name="Gallery6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery6colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery6colorAccent</item>
+    </style>
+
+    <style name="Gallery6crollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 7-->
+    <style name="Gallery7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery7colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery7colorAccent</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Gallery8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery8colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery8colorAccent</item>
+    </style>
+
+    <!--style 9-->
+    <style name="Gallery9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery9colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery9colorAccent</item>
+    </style>
+
+    <!--style 10-->
+    <style name="Gallery10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery10colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery10colorAccent</item>
+    </style>
+
+    <!--style 11-->
+    <style name="Gallery11Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gallery11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery11colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery11colorAccent</item>
+    </style>
+
+    <!--style 12-->
+    <style name="Gallery12Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/gallery12colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 13-->
+    <style name="Gallery13Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gallery13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery13colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery13colorAccent</item>
+    </style>
+
+    <!--style 14-->
+    <style name="Gallery14Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery14colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery14colorAccent</item>
+    </style>
+
+    <style name="Gallery14TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 15-->
+    <style name="Gallery15Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery15colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery15colorAccent</item>
+    </style>
+
+    <style name="Gallery15TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 16-->
+    <style name="Gallery16Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/gallery16colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 17-->
+    <style name="Gallery17Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/gallery17colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 18-->
+    <style name="Gallery18Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery18colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery18colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery18colorAccent</item>
+    </style>
+
+    <style name="Gallery18crollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 19-->
+    <style name="Gallery19Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery19colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery19colorAccent</item>
+    </style>
+
+    <style name="Gallery19crollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 20-->
+    <style name="Gallery20Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery20colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery20colorAccent</item>
+    </style>
+
+    <style name="Gallery20crollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 21-->
+    <style name="Gallery21Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/gallery21colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery21colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery21colorAccent</item>
+    </style>
+
+    <!--style 22-->
+    <style name="Gallery22Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery22colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery22colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery22colorAccent</item>
+    </style>
+
+    <!--style 23-->
+    <style name="Gallery23Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/gallery23colorPrimary</item>
+        <item name="colorPrimaryDark">@color/gallery23colorPrimaryDark</item>
+        <item name="colorAccent">@color/gallery23colorAccent</item>
+    </style>
+
+    <style name="Gallery23crollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 24-->
+    <style name="Gallery24Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 25-->
+    <style name="Gallery25Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- ECOMMERCE -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Ecommerce1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce1colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce1colorAccent</item>
+    </style>
+
+    <style name="Ecommerce1ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 2-->
+    <style name="Ecommerce2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce2colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce2colorAccent</item>
+    </style>
+
+    <style name="Ecommerce2ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 3-->
+    <style name="Ecommerce3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce3colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce3colorAccent</item>
+    </style>
+
+    <style name="Ecommerce3ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Ecommerce4Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce4colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce4colorAccent</item>
+    </style>
+
+    <style name="Ecommerce4ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 5-->
+    <style name="Ecommerce5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce5colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce5colorAccent</item>
+    </style>
+
+    <!--style 6-->
+    <style name="Ecommerce6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce6colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce6colorAccent</item>
+    </style>
+
+    <style name="Ecommerce6ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 7-->
+    <style name="Ecommerce7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce7colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce7colorAccent</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Ecommerce8Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce8colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce8colorAccent</item>
+    </style>
+
+    <style name="Ecommerce8ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 9-->
+    <style name="Ecommerce9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce9colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce9colorAccent</item>
+    </style>
+
+    <style name="Ecommerce9ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 10-->
+    <style name="Ecommerce10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce10colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce10colorAccent</item>
+    </style>
+
+    <style name="Ecommerce10ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 11-->
+    <style name="Ecommerce11Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce11colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce11colorAccent</item>
+    </style>
+
+    <style name="Ecommerce11ButtonStyle">
+        <item name="android:layout_width">46dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <!--style 12-->
+    <style name="Ecommerce12Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce12colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce12colorAccent</item>
+    </style>
+
+    <style name="Ecommerce12ButtonStyle">
+        <item name="android:layout_width">46dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <!--style 13-->
+    <style name="Ecommerce13Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce13colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce13colorAccent</item>
+    </style>
+
+    <!--style 14-->
+    <style name="Ecommerce14Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce14colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce14colorAccent</item>
+    </style>
+
+    <style name="Ecommerce14FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">66dp</item>
+        <item name="android:layout_marginRight">22dp</item>
+        <item name="android:src">@drawable/ic_love_yellow</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 15-->
+    <style name="Ecommerce15Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce15colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce15colorAccent</item>
+    </style>
+
+    <!--style 16-->
+    <style name="Ecommerce16Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce16colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce16colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce16colorAccent</item>
+    </style>
+
+    <!--style 17-->
+    <style name="Ecommerce17Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce17colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce17colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce17colorAccent</item>
+    </style>
+
+    <!--style 18-->
+    <style name="Ecommerce18Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce18colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce18colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce18colorAccent</item>
+    </style>
+
+    <!--style 19-->
+    <style name="Ecommerce19Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce19colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce19colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce19colorAccent</item>
+    </style>
+
+    <!--style 20-->
+    <style name="Ecommerce20Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce20colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce20colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce20colorAccent</item>
+    </style>
+
+    <style name="Ecommerce20ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarTrackHorizontal">@android:color/transparent</item>
+        <item name="android:scrollbarSize">0dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 21-->
+    <style name="Ecommerce21Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce21colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce21colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce21colorAccent</item>
+    </style>
+
+    <!--style 22-->
+    <style name="Ecommerce22Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce22colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce22colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce22colorAccent</item>
+    </style>
+
+    <style name="Ecommerce22Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/ecommerce22Bg</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 23-->
+    <style name="Ecommerce23Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce23colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce23colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce23colorAccent</item>
+    </style>
+
+    <style name="Ecommerce23ButtonStyle">
+        <item name="android:layout_width">46dp</item>
+        <item name="android:layout_height">46dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="Ecommerce23ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawHorizontalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarTrackHorizontal">@android:color/transparent</item>
+        <item name="android:scrollbarSize">0dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 24-->
+    <style name="Ecommerce24Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce24colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce24colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce24colorAccent</item>
+    </style>
+
+    <style name="Ecommerce24Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 25-->
+    <style name="Ecommerce25Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce25colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce25colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce25colorAccent</item>
+    </style>
+
+    <style name="Ecommerce25Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--style 26-->
+    <style name="Ecommerce26Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce26colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce26colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce26colorAccent</item>
+    </style>
+
+    <style name="Ecommerce26ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 27-->
+    <style name="Ecommerce27Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce27colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce27colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce27colorAccent</item>
+    </style>
+
+    <!--style 28-->
+    <style name="Ecommerce28Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce28colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce28colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce28colorAccent</item>
+    </style>
+
+    <!--style 29-->
+    <style name="Ecommerce29Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ecommerce29colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce29colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce29colorAccent</item>
+    </style>
+
+    <style name="Ecommerce29ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--style 30-->
+    <style name="Ecommerce30Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ecommerce30colorPrimary</item>
+        <item name="colorPrimaryDark">@color/ecommerce30colorPrimaryDark</item>
+        <item name="colorAccent">@color/ecommerce30colorAccent</item>
+    </style>
+
+    <style name="Ecommerce30ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- EXTRA DESIGN -->
+    <!--==========================================================================================-->
+
+    <!--extra dialog 1-->
+    <style name="ExtraDialog1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraDialog1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraDialog1colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraDialog1colorAccent</item>
+    </style>
+
+    <!--extra dialog 2-->
+    <style name="ExtraDialog2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraDialog2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraDialog2colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraDialog2colorAccent</item>
+    </style>
+
+    <!--extra dialog 3-->
+    <style name="ExtraDialog3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraDialog3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraDialog3colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraDialog3colorAccent</item>
+    </style>
+
+    <style name="ExtraDialog3Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@color/extraDialog3grayBg</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--extra left menu 1-->
+    <style name="ExtraLeftMenu1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraLeftMenu1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraLeftMenu1colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraLeftMenu1colorAccent</item>
+    </style>
+
+    <!--extra left menu 2-->
+    <style name="ExtraLeftMenu2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraLeftMenu2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraLeftMenu2colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraLeftMenu2colorAccent</item>
+    </style>
+
+    <!--extra left menu 3-->
+    <style name="ExtraLeftMenu3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraLeftMenu3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraLeftMenu3colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraLeftMenu3colorAccent</item>
+    </style>
+
+    <!--extra left menu 4-->
+    <style name="ExtraLeftMenu4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraLeftMenu4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraLeftMenu4colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraLeftMenu4colorAccent</item>
+    </style>
+
+    <!--extra checkbox 1-->
+    <style name="ExtraCheckbox1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraCheckbox1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraCheckbox1colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraCheckbox1colorAccent</item>
+    </style>
+
+    <style name="ExtraCheckbox1ShopCheckbox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/extraCheckbox1ShopCbNormal</item>
+        <item name="colorControlActivated">@color/extraCheckbox1ShopCbActivated</item>
+    </style>
+
+    <style name="ExtraCheckbox1UniversalCheckbox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/extraCheckbox1ShopCbNormal</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <style name="ExtraCheckbox1ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--extra checkbox 2-->
+    <style name="ExtraCheckbox2Theme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/extraCheckbox2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraCheckbox2colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraCheckbox2colorAccent</item>
+    </style>
+
+    <style name="ExtraCheckbox2ShopCheckbox" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/extraCheckbox2ShopCbNormal</item>
+        <item name="colorControlActivated">@color/extraCheckbox2ShopCbActivated</item>
+    </style>
+
+    <style name="ExtraCheckbox2UniversalCheckbox" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/extraCheckbox2ShopCbNormal</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <style name="ExtraCheckbox2ScrollbarStyle">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/recycler_scrollbar</item>
+        <item name="android:scrollbarTrackVertical">@android:color/transparent</item>
+        <item name="android:scrollbarSize">2dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <!--extra text light-->
+    <style name="ExtraTextLightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraTextlightcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraTextlightcolorPrimaryDark</item>
+        <item name="colorAccent">@color/extraTextlightcolorAccent</item>
+    </style>
+
+    <!--extra text dark-->
+    <style name="ExtraTextDarkTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/extraTextdarkcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraTextdarkcolorPrimaryDark</item>
+        <item name="colorAccent">@color/extraTextdarkcolorAccent</item>
+    </style>
+
+    <!--extra search 1-->
+    <style name="ExtraSearch1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/extraSearch1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/extraSearch1colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraSearch1colorAccent</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <!--extra search 2-->
+    <style name="ExtraSearch2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/extraSearch2colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraSearch2colorAccent</item>
+        <item name="colorControlNormal">@color/extraSearch2font</item>
+        <item name="colorControlActivated">@color/extraSearch2hintfont</item>
+    </style>
+
+    <!--extra search 3-->
+    <style name="ExtraSearch3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@color/extraSearch3colorPrimaryDark</item>
+        <item name="colorAccent">@color/extraSearch3colorAccent</item>
+        <item name="colorControlNormal">@color/extraSearch3font</item>
+        <item name="colorControlActivated">@color/extraSearch3hintfont</item>
+    </style>
+
+    <style name="ExtraSearch3Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- MUSIC -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Music1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music1colorPrimaryDark</item>
+        <item name="colorAccent">@color/music1colorAccent</item>
+    </style>
+
+    <!--style 2-->
+    <style name="Music2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music2colorPrimaryDark</item>
+        <item name="colorAccent">@color/music2colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Music2FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:src">@drawable/ic_play_floating_white</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 3-->
+    <style name="Music3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music3colorPrimaryDark</item>
+        <item name="colorAccent">@color/music3colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Music3FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:src">@drawable/ic_play_floating_white</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Music4Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/music4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music4colorPrimaryDark</item>
+        <item name="colorAccent">@color/music4colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 5-->
+    <style name="Music5Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/music5colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music5colorPrimaryDark</item>
+        <item name="colorAccent">@color/music5colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 6-->
+    <style name="Music6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music6colorPrimaryDark</item>
+        <item name="colorAccent">@color/music6colorAccent</item>
+    </style>
+
+    <style name="Music6TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 7-->
+    <style name="Music7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music7colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music7colorPrimaryDark</item>
+        <item name="colorAccent">@color/music7colorAccent</item>
+    </style>
+
+    <style name="Music7TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Music8Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music8colorPrimaryDark</item>
+        <item name="colorAccent">@color/music8colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 9-->
+    <style name="Music9Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music9colorPrimaryDark</item>
+        <item name="colorAccent">@color/music9colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="Music9FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:src">@drawable/ic_play_floating_white</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">4dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <!--style 10-->
+    <style name="Music10Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music10colorPrimaryDark</item>
+        <item name="colorAccent">@color/music10colorAccent</item>
+    </style>
+
+    <!--style 11-->
+    <style name="Music11Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music11colorPrimaryDark</item>
+        <item name="colorAccent">@color/music11colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 12-->
+    <style name="Music12Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music12colorPrimaryDark</item>
+        <item name="colorAccent">@color/music12colorAccent</item>
+    </style>
+
+    <style name="Music12TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 13-->
+    <style name="Music13Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/music13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music13colorPrimaryDark</item>
+        <item name="colorAccent">@color/music13colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 14-->
+    <style name="Music14Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/music14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music14colorPrimaryDark</item>
+        <item name="colorAccent">@color/music14colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 15-->
+    <style name="Music15Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/music15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/music15colorPrimaryDark</item>
+        <item name="colorAccent">@color/music15colorAccent</item>
+    </style>
+
+    <style name="Music15TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- NEWS -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="News1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news1colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news1colorPrimaryDark</item>
+        <item name="colorAccent">@color/news1colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="News1Button" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/news1ButtonBg</item>
+    </style>
+
+    <!--style 2-->
+    <style name="News2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news2colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news2colorPrimaryDark</item>
+        <item name="colorAccent">@color/news2colorAccent</item>
+    </style>
+
+    <style name="News2ButtonMenu" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/news2menuFont</item>
+    </style>
+
+    <!--style 3-->
+    <style name="News3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news3colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news3colorPrimaryDark</item>
+        <item name="colorAccent">@color/news3colorAccent</item>
+    </style>
+
+    <!--style 4-->
+    <style name="News4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news4colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news4colorPrimaryDark</item>
+        <item name="colorAccent">@color/news4colorAccent</item>
+    </style>
+
+    <style name="News4TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 5-->
+    <style name="News5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/news5colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 6-->
+    <style name="News6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news6colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news6colorPrimaryDark</item>
+        <item name="colorAccent">@color/news6colorAccent</item>
+    </style>
+
+    <style name="News6TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 7-->
+    <style name="News7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/news7colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="News7Input">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textCursorDrawable">@drawable/loginsignup_color_cursor</item>
+    </style>
+
+    <!--==========================================================================================-->
+    <!-- CONTENT -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <style name="Content1Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news8colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news8colorPrimaryDark</item>
+        <item name="colorAccent">@color/news8colorAccent</item>
+    </style>
+
+    <style name="Content1TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 2 -->
+    <style name="Content2Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news9colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news9colorPrimaryDark</item>
+        <item name="colorAccent">@color/news9colorAccent</item>
+    </style>
+
+    <!--style 3 -->
+    <style name="Content3Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news10colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news10colorPrimaryDark</item>
+        <item name="colorAccent">@color/news10colorAccent</item>
+    </style>
+
+    <!--style 4-->
+    <style name="Content4Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news11colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news11colorPrimaryDark</item>
+        <item name="colorAccent">@color/news11colorAccent</item>
+    </style>
+
+    <style name="Content4TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+    </style>
+
+    <!--style 5 -->
+    <style name="Content5Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news12colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news12colorPrimaryDark</item>
+        <item name="colorAccent">@color/news12colorAccent</item>
+    </style>
+
+    <!--style 6 -->
+    <style name="Content6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news13colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news13colorPrimaryDark</item>
+        <item name="colorAccent">@color/news13colorAccent</item>
+    </style>
+
+    <!--style 7 -->
+    <style name="Content7Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/news14colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news14colorPrimaryDark</item>
+        <item name="colorAccent">@color/news14colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <!--style 8-->
+    <style name="Content8Theme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/news15colorPrimary</item>
+        <item name="colorPrimaryDark">@color/news15colorPrimaryDark</item>
+        <item name="colorAccent">@color/news15colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

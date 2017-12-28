@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#36394c</color>
+    <color name="colorPrimaryDark">#36394c</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="button_orange">#fe5824</color>
+    <color name="button_white">@android:color/white</color>
+    <color name="button_blue">#40579b</color>
+    <color name="button_green">#43bd42</color>
+    <color name="button_gray">#f1f5f8</color>
+    <color name="button_magenta">#ea2064</color>
+    <color name="button_yellow">#ff9807</color>
+
+    <color name="accent">#caffeb3b</color>
+    <color name="accent_translucent">#caffeb3b</color>
+    <color name="main_menu_bg">#34374a</color>
+    <color name="main_menu_bg_active">#353a4c</color>
+    <color name="main_menu_count_active">#ffffff</color>
+    <color name="main_menu_count_nonactive">#84ff02</color>
+
+
+    <!--==========================================================================================-->
+    <!--LOGIN AND SIGNUP CATEGORY-->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="loginSignup1colorPrimary">#fe5824</color>
+    <color name="loginSignup1colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup1colorAccent">#fe5824</color>
+    <color name="loginSignup1Background">#f1f5f8</color>
+
+    <!--style 2-->
+    <color name="LoginSignup2colorAccent">#fe5824</color>
+    <color name="loginSignup2InputBg">#f1f5f8</color>
+
+    <!--style 3-->
+    <color name="loginSignup3colorPrimary">#fe5824</color>
+    <color name="LoginSignup3colorAccent">#fe5824</color>
+    <color name="loginSignup3InputHint">#939393</color>
+
+    <!--style 4-->
+    <color name="loginSignup4colorPrimary">#fe5824</color>
+    <color name="loginSignup4colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup4colorAccent">#fe5824</color>
+
+    <!--style 5-->
+    <color name="loginSignup5colorPrimary">#fe5824</color>
+    <color name="loginSignup5colorAccent">#fe5824</color>
+
+    <!--style 6-->
+    <color name="loginSignup6colorAccent">#fe5824</color>
+    <color name="loginSignup6ContainerBg">#f1f5f8</color>
+
+    <!--style 7-->
+    <color name="loginSignup7colorPrimary">#fe5824</color>
+    <color name="loginSignup7colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup7colorAccent">#fe5824</color>
+
+    <!--style 8-->
+    <color name="loginSignup8colorPrimary">#fe5824</color>
+    <color name="loginSignup8colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup8colorAccent">#fe5824</color>
+
+    <!--style 9-->
+    <color name="loginSignup9colorPrimary">#fe5824</color>
+    <color name="loginSignup9colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup9colorAccent">#fe5824</color>
+
+    <!--style 10-->
+    <color name="loginSignup10colorPrimary">#fe5824</color>
+    <color name="loginSignup10colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup10colorAccent">#fe5824</color>
+    <color name="loginSignup10top">#f0efee</color>
+    <color name="loginSignup10CardGray">#eeeeee</color>
+
+    <!--style 11-->
+    <color name="loginSignup11colorPrimary">#fe5824</color>
+    <color name="loginSignup11colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup11colorAccent">#fe5824</color>
+    <color name="loginSignup11text">#636363</color>
+
+    <!--style 12-->
+    <color name="LoginSignup12colorAccent">#fe5824</color>
+
+    <!--style 13-->
+    <color name="LoginSignup13colorAccent">#fe5824</color>
+    <color name="loginSignup13colorNormal">#b6b6b6</color>
+
+    <!--style 14-->
+    <color name="loginSignup14colorPrimary">#fe5824</color>
+    <color name="loginSignup14colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup14colorAccent">#fe5824</color>
+    <color name="loginSignup14text">#585858</color>
+
+    <!--style 15-->
+    <color name="LoginSignup15colorAccent">#fe5824</color>
+    <color name="loginSignup15text">#585858</color>
+
+    <!--style 16-->
+    <color name="LoginSignup16colorAccent">#fe5824</color>
+
+    <!--style 17-->
+    <color name="loginSignup17colorPrimary">#fe5824</color>
+    <color name="loginSignup17colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup17colorAccent">#fe5824</color>
+
+    <!--style 18-->
+    <color name="loginSignup18colorPrimary">#fe5824</color>
+    <color name="loginSignup18colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup18colorAccent">#fe5824</color>
+
+    <!--style 19-->
+    <color name="loginSignup19colorPrimary">#fe5824</color>
+    <color name="loginSignup19colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup19colorAccent">#fe5824</color>
+
+    <!--style 20-->
+    <color name="loginSignup20colorPrimary">#fe5824</color>
+    <color name="loginSignup20colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup20colorAccent">#fe5824</color>
+
+    <!--style 21-->
+    <color name="loginSignup21colorPrimary">#fe5824</color>
+    <color name="loginSignup21colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup21colorAccent">#fe5824</color>
+
+    <!--style 22-->
+    <color name="loginSignup22colorPrimary">#fe5824</color>
+    <color name="loginSignup22colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup22colorAccent">#fe5824</color>
+
+    <!--style 23-->
+    <color name="LoginSignup23colorAccent">#fe5824</color>
+    <color name="loginSignup23formBg">#f1f5f8</color>
+
+    <!--style 24-->
+    <color name="loginSignup24colorPrimary">#fe5824</color>
+    <color name="loginSignup24colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup24colorAccent">#fe5824</color>
+
+    <!--style 25-->
+    <color name="loginSignup25colorPrimary">#fe5824</color>
+    <color name="loginSignup25colorPrimaryDark">#e94a18</color>
+    <color name="loginSignup25colorAccent">#fe5824</color>
+
+    <!--==========================================================================================-->
+    <!-- MENU NAVIGATION CATEGORY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="menuNavigation1colorPrimary">#8f26aa</color>
+    <color name="menuNavigation1colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation1colorAccent">#8f26aa</color>
+    <color name="menuNavigation1menuBg">#8f26aa</color>
+    <color name="menuNavigation1Button1Bg">#ff5718</color>
+    <color name="menuNavigation1Button2Bg">#0fb7a1</color>
+    <color name="menuNavigation1Button3Bg">#80b352</color>
+    <color name="menuNavigation1Button4Bg">#438ff5</color>
+    <color name="menuNavigation1Button5Bg">#fbba2d</color>
+    <color name="menuNavigation1Button6Bg">#d81d60</color>
+
+    <!--style 2-->
+    <color name="menuNavigation2colorPrimary">#8f26aa</color>
+    <color name="menuNavigation2colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation2colorAccent">#8f26aa</color>
+    <color name="menuNavigation2menuBg">#f1f5f8</color>
+
+    <!--style 3-->
+    <color name="menuNavigation3colorPrimary">#8f26aa</color>
+    <color name="menuNavigation3colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation3colorAccent">#8f26aa</color>
+    <color name="menuNavigation3menuBg">#8f26aa</color>
+
+    <!--style 4-->
+    <color name="menuNavigation4colorPrimary">#293339</color>
+    <color name="menuNavigation4colorPrimaryDark">#293339</color>
+    <color name="menuNavigation4colorAccent">#293339</color>
+    <color name="menuNavigation4menuBg">#293339</color>
+    <color name="menuNavigation4menuSelected">#202c32</color>
+
+    <!--style 5-->
+    <color name="menuNavigation5colorPrimary">#8f26aa</color>
+    <color name="menuNavigation5colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation5colorAccent">#8f26aa</color>
+    <color name="menuNavigation5menuBg">#ffffff</color>
+    <color name="menuNavigation5menuFont">#818181</color>
+    <color name="menuNavigation5menuNotificationBg">#2580fc</color>
+
+    <!--style 6-->
+    <color name="menuNavigation6colorPrimary">#8f26aa</color>
+    <color name="menuNavigation6colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation6colorAccent">#8f26aa</color>
+    <color name="menuNavigation6menuBg">#8f26aa</color>
+    <color name="menuNavigation6SubMenuFont">#acacac</color>
+
+    <!--style 7-->
+    <color name="menuNavigation7colorPrimary">#8f26aa</color>
+    <color name="menuNavigation7colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation7colorAccent">#8f26aa</color>
+    <color name="menuNavigation7menuBg">#f1f5f8</color>
+
+    <!--style 8-->
+    <color name="menuNavigation8colorPrimary">#8f26aa</color>
+    <color name="menuNavigation8colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation8colorAccent">#8f26aa</color>
+    <color name="menuNavigation8menuBg">#f1f5f8</color>
+    <color name="menuNavigation8menuNotificationBg">#2580fc</color>
+    <color name="menuNavigation8menuFontActive">#2580fc</color>
+    <color name="menuNavigation8menuFont">#6a6b6c</color>
+    <color name="menuNavigation8menuNotificationNonActiveBg">#cdd2d6</color>
+
+    <!--style 9-->
+    <color name="menuNavigation9colorPrimary">#8f26aa</color>
+    <color name="menuNavigation9colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation9colorAccent">#8f26aa</color>
+    <color name="menuNavigation9menuBg">#293339</color>
+    <color name="menuNavigation9menuSelected">#2580fc</color>
+
+    <!--style 10-->
+    <color name="menuNavigation10menuBg">#293339</color>
+    <color name="menuNavigation10menuNotificationBg">#222c32</color>
+    <color name="menuNavigation10menuSelected">#2580fc</color>
+
+    <!--style 11-->
+    <color name="menuNavigation11colorPrimary">#8f26aa</color>
+    <color name="menuNavigation11colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation11colorAccent">#8f26aa</color>
+    <color name="menuNavigation11menuBg">#f1f5f8</color>
+    <color name="menuNavigation11menuSelected">#2580fc</color>
+
+    <!--style 12-->
+    <color name="menuNavigation12colorPrimary">#8f26aa</color>
+    <color name="menuNavigation12colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation12colorAccent">#8f26aa</color>
+    <color name="menuNavigation12menuSelected">#edeef2</color>
+    <color name="menuNavigation12menuLogoutBg">#cfd9db</color>
+
+    <!--style 13-->
+    <color name="menuNavigation13colorPrimary">#8f26aa</color>
+    <color name="menuNavigation13colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation13colorAccent">#8f26aa</color>
+    <color name="menuNavigation13menuBg">#293339</color>
+    <color name="menuNavigation13menuSelectedBg">#212d33</color>
+    <color name="menuNavigation13menuNotificationBg">#2580fc</color>
+    <color name="menuNavigation13menuNotificationNonActiveBg">#232f35</color>
+
+    <!--style 14-->
+    <color name="menuNavigation14colorPrimary">#8f26aa</color>
+    <color name="menuNavigation14colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation14colorAccent">#8f26aa</color>
+    <color name="menuNavigation14menuBg">#f1f5f8</color>
+    <color name="menuNavigation14menuNotificationBg">#2580fc</color>
+    <color name="menuNavigation14menuSelected">#edeef2</color>
+
+    <!--style 15-->
+    <color name="menuNavigation15colorPrimary">#293339</color>
+    <color name="menuNavigation15colorPrimaryDark">#293339</color>
+    <color name="menuNavigation15colorAccent">#293339</color>
+    <color name="menuNavigation15menuBg">#293339</color>
+    <color name="menuNavigation15menuProfileBg">#5192fb</color>
+
+    <!--style 16-->
+    <color name="menuNavigation16colorPrimary">#8f26aa</color>
+    <color name="menuNavigation16colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation16colorAccent">#8f26aa</color>
+    <color name="menuNavigation16menuBg">#293339</color>
+    <color name="menuNavigation16menuSelected">#212d33</color>
+
+    <!--style 17-->
+    <color name="menuNavigation17colorPrimary">#8f26aa</color>
+    <color name="menuNavigation17colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation17colorAccent">#8f26aa</color>
+    <color name="menuNavigation17menuBg">#f1f5f8</color>
+    <color name="menuNavigation17menu">#ffffff</color>
+    <color name="menuNavigation17menuSelected">#267bfe</color>
+
+    <!--style 18-->
+    <color name="menuNavigation18colorPrimary">#8f26aa</color>
+    <color name="menuNavigation18colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation18colorAccent">#8f26aa</color>
+    <color name="menuNavigation18menuBg">#ffffff</color>
+    <color name="menuNavigation18menuSelected">#f1f5f8</color>
+    <color name="menuNavigation18menuNotificationBg">#2580fc</color>
+    <color name="menuNavigation18menuNotificationNonActiveBg">#cdd2d6</color>
+
+    <!--style 19-->
+    <color name="menuNavigation19colorPrimary">#8f26aa</color>
+    <color name="menuNavigation19colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation19colorAccent">#8f26aa</color>
+
+    <!--style 20-->
+    <color name="menuNavigation20colorPrimary">#8f26aa</color>
+    <color name="menuNavigation20colorPrimaryDark">#7824a1</color>
+    <color name="menuNavigation20colorAccent">#8f26aa</color>
+    <color name="menuNavigation20menuBg">#293339</color>
+    <color name="menuNavigation20menuTopBg">#8f26aa</color>
+    <color name="menuNavigation20menuNotificationBg">#2580fc</color>
+    <color name="menuNavigation20menuNotificationNonActiveBg">#232f35</color>
+    <color name="menuNavigation20buttonLogoutBg">#212d33</color>
+
+    <!--==========================================================================================-->
+    <!-- PROFILE CATEGORY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="profile1colorPrimary">#8f26aa</color>
+    <color name="profile1colorPrimaryDark">#7824a1</color>
+    <color name="profile1colorAccent">#8f26aa</color>
+
+    <!--style 2-->
+    <color name="profile2colorPrimary">#8f26aa</color>
+    <color name="profile2colorPrimaryDark">#7824a1</color>
+    <color name="profile2colorAccent">#8f26aa</color>
+
+    <!--style 3-->
+    <color name="profile3colorAccent">#43bd42</color>
+
+    <!--style 4-->
+    <color name="profile4colorPrimary">#8f26aa</color>
+    <color name="profile4colorPrimaryDark">#7824a1</color>
+    <color name="profile4colorAccent">#8f26aa</color>
+    <color name="profile4fontGray">#818181</color>
+
+    <!--style 5-->
+    <color name="profile5colorPrimary">#8f26aa</color>
+    <color name="profile5colorPrimaryDark">#7824a1</color>
+    <color name="profile5colorAccent">#8f26aa</color>
+    <color name="profile5ProfilBg">#f1f5f8</color>
+    <color name="profile5fontGray">#484848</color>
+    <color name="profile5CardGray">#83e1e1e1</color>
+
+    <!--style 6-->
+    <color name="profile6colorPrimary">#8f26aa</color>
+    <color name="profile6colorPrimaryDark">#7824a1</color>
+    <color name="profile6colorAccent">#8f26aa</color>
+
+    <!--style 7-->
+    <color name="profile7colorPrimary">#8f26aa</color>
+    <color name="profile7colorPrimaryDark">#7824a1</color>
+    <color name="profile7colorAccent">#8f26aa</color>
+    <color name="profile7background">#f1f4f9</color>
+
+    <!--style 8-->
+    <color name="profile8colorPrimary">#8f26aa</color>
+    <color name="profile8colorPrimaryDark">#7824a1</color>
+    <color name="profile8colorAccent">#8f26aa</color>
+    <color name="profile8fontGray">#818181</color>
+
+    <!--style 9-->
+    <color name="profile9colorPrimary">#8f26aa</color>
+    <color name="profile9colorPrimaryDark">#7824a1</color>
+    <color name="profile9colorAccent">#8f26aa</color>
+
+    <!--style 10-->
+    <color name="profile10colorPrimary">#8f26aa</color>
+    <color name="profile10colorPrimaryDark">#7824a1</color>
+    <color name="profile10colorAccent">#8f26aa</color>
+
+    <!--style 11-->
+    <color name="profile11colorPrimary">#8f26aa</color>
+    <color name="profile11colorPrimaryDark">#7824a1</color>
+    <color name="profile11colorAccent">#8f26aa</color>
+
+    <!--style 12-->
+    <color name="profile12colorPrimary">#8f26aa</color>
+    <color name="profile12colorPrimaryDark">#7824a1</color>
+    <color name="profile12colorAccent">#8f26aa</color>
+    <color name="profile12floatingBg">#43bd42</color>
+
+    <!--style 13-->
+    <color name="profile13colorPrimary">#8f26aa</color>
+    <color name="profile13colorPrimaryDark">#7824a1</color>
+    <color name="profile13colorAccent">#8f26aa</color>
+    <color name="profile13background">#f1f5f8</color>
+
+    <!--style 14-->
+    <color name="profile14colorPrimary">#8f26aa</color>
+    <color name="profile14colorPrimaryDark">#7824a1</color>
+    <color name="profile14colorAccent">#8f26aa</color>
+    <color name="profile14background">#f1f5f8</color>
+    <color name="profile14floatingBg">#43bd42</color>
+
+    <!--style 15-->
+    <color name="profile15colorPrimary">#8f26aa</color>
+    <color name="profile15colorPrimaryDark">#7824a1</color>
+    <color name="profile15colorAccent">#8f26aa</color>
+    <color name="profile15background">#f1f5f8</color>
+    <color name="profile15fontGray">#818181</color>
+    <color name="profile15fontGray2">#bababa</color>
+
+    <!--style 16-->
+    <color name="profile16colorPrimary">#8f26aa</color>
+    <color name="profile16colorPrimaryDark">#7824a1</color>
+    <color name="profile16colorAccent">#8f26aa</color>
+    <color name="profile16background">#f1f5f8</color>
+    <color name="profile16fontGray">#999696</color>
+    <color name="profile16timeline">#d7d7d7</color>
+    <color name="profile16floatingBg">#43bd42</color>
+    <color name="profile16DotGreen">#96c06a</color>
+    <color name="profile16DotYellow">#eab92e</color>
+
+    <!--style 17-->
+    <color name="profile17colorPrimary">#8f26aa</color>
+    <color name="profile17colorPrimaryDark">#7824a1</color>
+    <color name="profile17colorAccent">#8f26aa</color>
+    <color name="profile17fontGray">#999696</color>
+    <color name="profile17floatingBg">#43bd42</color>
+
+    <!--style 18-->
+    <color name="profile18colorPrimary">#8f26aa</color>
+    <color name="profile18colorPrimaryDark">#7824a1</color>
+    <color name="profile18colorAccent">#8f26aa</color>
+    <color name="profile18floatingBg">#43bd42</color>
+
+    <!--style 19-->
+    <color name="profile19colorPrimary">#8f26aa</color>
+    <color name="profile19colorPrimaryDark">#7824a1</color>
+    <color name="profile19colorAccent">#8f26aa</color>
+    <color name="profile19SplitterGray">#70dfdfdf</color>
+
+    <!--style 20-->
+    <color name="profile20colorPrimary">#8f26aa</color>
+    <color name="profile20colorPrimaryDark">#7824a1</color>
+    <color name="profile20colorAccent">#8f26aa</color>
+
+    <!--style 21-->
+    <color name="profile21colorPrimary">#8f26aa</color>
+    <color name="profile21colorPrimaryDark">#7824a1</color>
+    <color name="profile21colorAccent">#8f26aa</color>
+
+    <!--style 22-->
+    <color name="profile22colorPrimary">#8f26aa</color>
+    <color name="profile22colorPrimaryDark">#7824a1</color>
+    <color name="profile22colorAccent">#8f26aa</color>
+
+    <!--style 23-->
+    <color name="profile23colorPrimary">#8f26aa</color>
+    <color name="profile23colorPrimaryDark">#7824a1</color>
+    <color name="profile23colorAccent">#8f26aa</color>
+
+    <!--style 24-->
+    <color name="profile24colorPrimary">#8f26aa</color>
+    <color name="profile24colorPrimaryDark">#7824a1</color>
+    <color name="profile24colorAccent">#8f26aa</color>
+
+    <!--style 25-->
+    <color name="profile25colorPrimary">#8f26aa</color>
+    <color name="profile25colorPrimaryDark">#7824a1</color>
+    <color name="profile25colorAccent">#8f26aa</color>
+    <color name="profile25fontGray">#a7a6a6</color>
+
+    <!--style 26-->
+    <color name="profile26colorPrimary">#8f26aa</color>
+    <color name="profile26colorPrimaryDark">#7824a1</color>
+    <color name="profile26colorAccent">#8f26aa</color>
+
+    <!--style 27-->
+    <color name="profile27colorPrimary">#8f26aa</color>
+    <color name="profile27colorPrimaryDark">#7824a1</color>
+    <color name="profile27colorAccent">#8f26aa</color>
+    <color name="profile27floatingBg">#43bd42</color>
+    <color name="profile27Background">#f1f5f8</color>
+    <color name="profile27fontGray">#a7a6a6</color>
+
+    <!--style 28-->
+    <color name="profile28colorPrimary">#8f26aa</color>
+    <color name="profile28colorPrimaryDark">#7824a1</color>
+    <color name="profile28colorAccent">#8f26aa</color>
+    <color name="profile28background">#f1f4f9</color>
+
+    <!--style 29-->
+    <color name="profile29colorPrimary">#8f26aa</color>
+    <color name="profile29colorPrimaryDark">#7824a1</color>
+    <color name="profile29colorAccent">#8f26aa</color>
+    <color name="profile29background">#f1f4f9</color>
+    <color name="profile29font">#818181</color>
+
+    <!--style 30-->
+    <color name="profile30colorPrimary">#8f26aa</color>
+    <color name="profile30colorPrimaryDark">#7824a1</color>
+    <color name="profile30colorAccent">#8f26aa</color>
+    <color name="profile30SplitterGray">#70dfdfdf</color>
+
+    <!--==========================================================================================-->
+    <!--WIZARD / WALKTHROUGH-->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="walkthrough1colorPrimary">#ea2064</color>
+    <color name="walkthrough1colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough1colorAccent">#ea2064</color>
+    <color name="walkthrough1FontGray">#ababab</color>
+
+    <!--style 2-->
+    <color name="walkthrough2formBg">#f1f5f8</color>
+    <color name="walkthrough2colorAccent">#ea2064</color>
+
+    <!--style 3-->
+    <color name="walkthrough3colorPrimary">#ea2064</color>
+    <color name="walkthrough3colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough3colorAccent">#ea2064</color>
+    <color name="walkthrough3Background">#f1f5f8</color>
+
+    <!--style 4-->
+    <color name="walkthrough4colorPrimary">#ea2064</color>
+    <color name="walkthrough4colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough4colorAccent">#ea2064</color>
+    <color name="walkthrough4Background">#f1f5f8</color>
+
+    <!--style 5-->
+    <color name="walkthrough5colorPrimary">#ea2064</color>
+    <color name="walkthrough5colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough5colorAccent">#ea2064</color>
+
+    <!--style 6-->
+    <color name="walkthrough6colorPrimary">#ea2064</color>
+    <color name="walkthrough6colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough6colorAccent">#ea2064</color>
+    <color name="walkthrough6FontGray">#ababab</color>
+
+    <!--style 7-->
+    <color name="walkthrough7colorPrimary">#ea2064</color>
+    <color name="walkthrough7colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough7colorAccent">#ea2064</color>
+
+    <!--style 8-->
+    <color name="walkthrough8colorPrimary">#ea2064</color>
+    <color name="walkthrough8colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough8colorAccent">#ea2064</color>
+
+    <!--style 9-->
+    <color name="walkthrough9colorPrimary">#ea2064</color>
+    <color name="walkthrough9colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough9colorAccent">#ea2064</color>
+    <color name="walkthrough9Background">#ea2064</color>
+
+    <!--style 10-->
+    <color name="walkthrough10colorPrimary">#ea2064</color>
+    <color name="walkthrough10colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough10colorAccent">#ea2064</color>
+    <color name="walkthrough10Background">#ffffff</color>
+
+    <!--style 11-->
+    <color name="walkthrough11colorPrimary">#ea2064</color>
+    <color name="walkthrough11colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough11colorAccent">#ea2064</color>
+    <color name="walkthrough11Background">#f1f5f8</color>
+
+    <!--style 12-->
+    <color name="walkthrough12colorPrimary">#ea2064</color>
+    <color name="walkthrough12colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough12colorAccent">#ea2064</color>
+
+    <!--style 13-->
+    <color name="walkthrough13colorPrimary">#ea2064</color>
+    <color name="walkthrough13colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough13colorAccent">#ea2064</color>
+    <color name="walkthrough13Background">#293339</color>
+    <color name="walkthrough13FontGray">#ababab</color>
+
+    <!--style 14-->
+    <color name="walkthrough14colorPrimary">#ea2064</color>
+    <color name="walkthrough14colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough14colorAccent">#ea2064</color>
+    <color name="walkthrough14Background">#909599</color>
+
+    <!--style 15-->
+    <color name="walkthrough15colorPrimary">#ea2064</color>
+    <color name="walkthrough15colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough15colorAccent">#ea2064</color>
+    <color name="walkthrough15Background">#909599</color>
+    <color name="walkthrough15FontGray">#ababab</color>
+
+    <!--style 16-->
+    <color name="walkthrough16colorPrimary">#ea2064</color>
+    <color name="walkthrough16colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough16colorAccent">#ea2064</color>
+    <color name="walkthrough16Background">#909599</color>
+
+    <!--style 17-->
+    <color name="walkthrough17colorPrimary">#ea2064</color>
+    <color name="walkthrough17colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough17colorAccent">#ea2064</color>
+    <color name="walkthrough17Background">#293339</color>
+
+    <!--style 18-->
+    <color name="walkthrough18colorPrimary">#ea2064</color>
+    <color name="walkthrough18colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough18colorAccent">#ea2064</color>
+
+    <!--style 19-->
+    <color name="walkthrough19colorPrimary">#ea2064</color>
+    <color name="walkthrough19colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough19colorAccent">#ea2064</color>
+    <color name="walkthrough19Background">#f2f6f9</color>
+
+    <!--style 20-->
+    <color name="walkthrough20colorPrimary">#ea2064</color>
+    <color name="walkthrough20colorPrimaryDark">#b7194e</color>
+    <color name="walkthrough20colorAccent">#ea2064</color>
+    <color name="walkthrough20Background">#f1f5f8</color>
+
+    <!--==========================================================================================-->
+    <!-- ACTIVITY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="activity1colorPrimary">#f44337</color>
+    <color name="activity1colorPrimaryDark">#d72d33</color>
+    <color name="activity1colorAccent">#f44337</color>
+    <color name="activity1fontGray">#999696</color>
+
+    <!--style 2-->
+    <color name="activity2colorPrimary">#f44337</color>
+    <color name="activity2colorPrimaryDark">#d72d33</color>
+    <color name="activity2colorAccent">#f44337</color>
+    <color name="activity2SplitterGray">#70dfdfdf</color>
+    <color name="activity2fontGray">#999696</color>
+
+    <!--style 3-->
+    <color name="activity3colorPrimary">#f44337</color>
+    <color name="activity3colorPrimaryDark">#d72d33</color>
+    <color name="activity3colorAccent">#f44337</color>
+    <color name="activity3fontGray">#999696</color>
+    <color name="activity3SplitterGray">#70dfdfdf</color>
+
+    <!--style 4-->
+    <color name="activity4colorPrimary">#f44337</color>
+    <color name="activity4colorPrimaryDark">#d72d33</color>
+    <color name="activity4colorAccent">#f44337</color>
+
+    <!--style 5-->
+    <color name="activity5colorPrimary">#f44337</color>
+    <color name="activity5colorPrimaryDark">#d72d33</color>
+    <color name="activity5colorAccent">#f44337</color>
+    <color name="activity5fontGray">#999696</color>
+    <color name="activity5fontBlue">#2d7dfc</color>
+    <color name="activity5fontYellow">#f7cf5d</color>
+    <color name="activity5SplitterGray">#70dfdfdf</color>
+
+    <!--style 6-->
+    <color name="activity6colorPrimary">#f44337</color>
+    <color name="activity6colorPrimaryDark">#d72d33</color>
+    <color name="activity6colorAccent">#f44337</color>
+
+    <!--style 7-->
+    <color name="activity7colorPrimary">#f44337</color>
+    <color name="activity7colorPrimaryDark">#d72d33</color>
+    <color name="activity7colorAccent">#f44337</color>
+    <color name="activity7fontGray">#999696</color>
+
+    <!--style 8-->
+    <color name="activity8colorPrimary">#f44337</color>
+    <color name="activity8colorPrimaryDark">#d72d33</color>
+    <color name="activity8colorAccent">#f44337</color>
+    <color name="activity8fontGray">#bebebe</color>
+
+    <!--style 9-->
+    <color name="activity9colorPrimary">#f44337</color>
+    <color name="activity9colorPrimaryDark">#d72d33</color>
+    <color name="activity9colorAccent">#f44337</color>
+    <color name="activity9fontGray">#999696</color>
+    <color name="activity9ChatBackground">#f1f5f8</color>
+
+    <!--style 11-->
+    <color name="activity11colorPrimary">#f44337</color>
+    <color name="activity11colorPrimaryDark">#d72d33</color>
+    <color name="activity11colorAccent">#f44337</color>
+    <color name="activity11fontGray">#bebebe</color>
+    <color name="activity11SplitterGray">#70dfdfdf</color>
+
+    <!--style 12-->
+    <color name="activity12colorPrimary">#f44337</color>
+    <color name="activity12colorPrimaryDark">#d72d33</color>
+    <color name="activity12colorAccent">#f44337</color>
+    <color name="activity12headerMask">#4b000000</color>
+    <color name="activity12fontGray">#ababab</color>
+
+    <!--style 13-->
+    <color name="activity13colorPrimary">#f44337</color>
+    <color name="activity13colorPrimaryDark">#d72d33</color>
+    <color name="activity13colorAccent">#f44337</color>
+
+    <!--style 14-->
+    <color name="activity14colorPrimary">#f44337</color>
+    <color name="activity14colorPrimaryDark">#d72d33</color>
+    <color name="activity14colorAccent">#f44337</color>
+    <color name="activity14fontGray">#999696</color>
+    <color name="activity14fontTag">#447ad3</color>
+
+    <!--style 15-->
+    <color name="activity15colorPrimary">#f44337</color>
+    <color name="activity15colorPrimaryDark">#d72d33</color>
+    <color name="activity15colorAccent">#f44337</color>
+    <color name="activity15fontGray">#bebebe</color>
+    <color name="activity15fontButton">#447ad3</color>
+    <color name="activity15GrayBackground">#fafafa</color>
+
+    <!--style 16-->
+    <color name="activity16colorPrimary">#f44337</color>
+    <color name="activity16colorPrimaryDark">#d72d33</color>
+    <color name="activity16colorAccent">#f44337</color>
+    <color name="activity16fontButton">#447ad3</color>
+    <color name="activity16InputChatBackground">#f1f5f8</color>
+
+    <!--style 17-->
+    <color name="activity17colorPrimary">#f44337</color>
+    <color name="activity17colorPrimaryDark">#d72d33</color>
+    <color name="activity17colorAccent">#f44337</color>
+    <color name="activity17timeline">#d7d7d7</color>
+    <color name="activity17Splitter">#5ed7d7d7</color>
+    <color name="activity17fontGray">#999696</color>
+
+    <!--style 18-->
+    <color name="activity18colorAccent">#f44337</color>
+    <color name="activity18ChatBackground">#f1f5f8</color>
+
+    <!--style 19-->
+    <color name="activity19colorPrimary">#f44337</color>
+    <color name="activity19colorPrimaryDark">#d72d33</color>
+    <color name="activity19colorAccent">#f44337</color>
+    <color name="activity19background">#f1f5f8</color>
+    <color name="activity19fontGray">#999696</color>
+    <color name="activity19Splitter">#5ed7d7d7</color>
+
+    <!--style 20-->
+    <color name="activity20colorPrimary">#f44337</color>
+    <color name="activity20colorPrimaryDark">#d72d33</color>
+    <color name="activity20colorAccent">#f44337</color>
+
+    <!--style 21-->
+    <color name="activity21colorPrimary">#f44337</color>
+    <color name="activity21colorPrimaryDark">#d72d33</color>
+    <color name="activity21colorAccent">#f44337</color>
+    <color name="activity21ItemBg">#ffffff</color>
+    <color name="activity21ItemBgSwipped">#f1f5f8</color>
+
+    <!--style 22-->
+    <color name="activity22colorPrimary">#f44337</color>
+    <color name="activity22colorPrimaryDark">#d72d33</color>
+    <color name="activity22colorAccent">#f44337</color>
+
+    <!--style 23-->
+    <color name="activity23colorPrimary">#f44337</color>
+    <color name="activity23colorPrimaryDark">#d72d33</color>
+    <color name="activity23colorAccent">#f44337</color>
+    <color name="activity23ChatBackground">#f1f5f8</color>
+
+    <!--style 24-->
+    <color name="activity24colorPrimary">#f44337</color>
+    <color name="activity24colorPrimaryDark">#d72d33</color>
+    <color name="activity24colorAccent">#f44337</color>
+    <color name="activity24background">#f1f5f7</color>
+    <color name="activity24DotRed">#f7313b</color>
+    <color name="activity24DotYellow">#fad817</color>
+    <color name="activity24DotBlue">#307cee</color>
+    <color name="activity24DotGreen">#b8c612</color>
+
+    <!--style 25-->
+    <color name="activity25colorPrimary">#f44337</color>
+    <color name="activity25colorPrimaryDark">#d72d33</color>
+    <color name="activity25colorAccent">#f44337</color>
+    <color name="activity25historyMask">#c3ffffff</color>
+
+    <!--style 26-->
+    <color name="activity26colorPrimary">#f44337</color>
+    <color name="activity26colorPrimaryDark">#d72d33</color>
+    <color name="activity26colorAccent">#f44337</color>
+    <color name="activity26background">#f1f5f8</color>
+
+    <!--style 27-->
+    <color name="activity27colorPrimary">#f44337</color>
+    <color name="activity27colorPrimaryDark">#d72d33</color>
+    <color name="activity27colorAccent">#f44337</color>
+    <color name="activity27fontGray">#d2d2d2</color>
+
+    <!--style 28-->
+    <color name="activity28colorAccent">#f44337</color>
+    <color name="activity28background">#f1f5f8</color>
+
+    <!--style 29-->
+    <color name="activity29colorPrimary">#f44337</color>
+    <color name="activity29colorPrimaryDark">#d72d33</color>
+    <color name="activity29colorAccent">#f44337</color>
+    <color name="activity29Splitter">#5ed7d7d7</color>
+
+    <!--style 30-->
+    <color name="activity30colorPrimary">#f44337</color>
+    <color name="activity30colorPrimaryDark">#d72d33</color>
+    <color name="activity30colorAccent">#2a6fe2</color>
+    <color name="activity30seek">#2a6fe2</color>
+
+    <!--==========================================================================================-->
+    <!-- GALLERY -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="gallery1colorPrimary">#8dc34c</color>
+    <color name="gallery1colorPrimaryDark">#689e36</color>
+    <color name="gallery1colorAccent">#8dc34c</color>
+
+    <!--style 2-->
+    <color name="gallery2colorPrimary">#8dc34c</color>
+    <color name="gallery2colorPrimaryDark">#689e36</color>
+    <color name="gallery2colorAccent">#8dc34c</color>
+
+    <!--style 3-->
+    <color name="gallery3colorPrimary">#8dc34c</color>
+    <color name="gallery3colorPrimaryDark">#689e36</color>
+    <color name="gallery3colorAccent">#8dc34c</color>
+
+    <!--style 4-->
+    <color name="gallery4colorPrimary">#8dc34c</color>
+    <color name="gallery4colorPrimaryDark">#689e36</color>
+    <color name="gallery4colorAccent">#8dc34c</color>
+
+    <!--style 5-->
+    <color name="gallery5colorPrimary">#8dc34c</color>
+    <color name="gallery5colorPrimaryDark">#689e36</color>
+    <color name="gallery5colorAccent">#8dc34c</color>
+
+    <!--style 6-->
+    <color name="gallery6colorPrimary">#8dc34c</color>
+    <color name="gallery6colorPrimaryDark">#689e36</color>
+    <color name="gallery6colorAccent">#8dc34c</color>
+    <color name="gallery6checkIndicator">#5081fd</color>
+
+    <!--style 7-->
+    <color name="gallery7colorPrimary">#8dc34c</color>
+    <color name="gallery7colorPrimaryDark">#689e36</color>
+    <color name="gallery7colorAccent">#8dc34c</color>
+    <color name="gallery7indicatorSelectedBg">#9affffff</color>
+
+    <!--style 8-->
+    <color name="gallery8colorPrimary">#8dc34c</color>
+    <color name="gallery8colorPrimaryDark">#689e36</color>
+    <color name="gallery8colorAccent">#8dc34c</color>
+
+    <!--style 9-->
+    <color name="gallery9colorPrimary">#8dc34c</color>
+    <color name="gallery9colorPrimaryDark">#689e36</color>
+    <color name="gallery9colorAccent">#8dc34c</color>
+
+    <!--style 10-->
+    <color name="gallery10colorPrimary">#8dc34c</color>
+    <color name="gallery10colorPrimaryDark">#689e36</color>
+    <color name="gallery10colorAccent">#8dc34c</color>
+    <color name="gallery10disableForeground">#460a0a0a</color>
+
+    <!--style 11-->
+    <color name="gallery11colorPrimary">#8dc34c</color>
+    <color name="gallery11colorPrimaryDark">#689e36</color>
+    <color name="gallery11colorAccent">#8dc34c</color>
+    <color name="gallery11IconBg">#3e8ff4</color>
+
+    <!--style 12-->
+    <color name="gallery12colorAccent">#8dc34c</color>
+    <color name="gradient_action_bar_stream_start">#6b000000</color>
+    <color name="gradient_action_bar_stream_bottom">#3f000000</color>
+    <color name="gradient_action_bar_stream_end">#00000000</color>
+
+    <!--style 13-->
+    <color name="gallery13colorPrimary">#8dc34c</color>
+    <color name="gallery13colorPrimaryDark">#689e36</color>
+    <color name="gallery13colorAccent">#8dc34c</color>
+    <color name="gallery13IconBg">#3e8ff4</color>
+
+    <!--style 14-->
+    <color name="gallery14colorPrimary">#8dc34c</color>
+    <color name="gallery14colorPrimaryDark">#689e36</color>
+    <color name="gallery14colorAccent">#8dc34c</color>
+
+    <!--style 15-->
+    <color name="gallery15colorPrimary">#8dc34c</color>
+    <color name="gallery15colorPrimaryDark">#689e36</color>
+    <color name="gallery15colorAccent">#8dc34c</color>
+    <color name="gallery15disableForeground">#460a0a0a</color>
+
+    <!--style 16-->
+    <color name="gallery16colorAccent">#8dc34c</color>
+    <color name="gallery16fontGray">#d9d4d4</color>
+
+    <!--style 17-->
+    <color name="gallery17colorAccent">#8dc34c</color>
+    <color name="gallery17IconBg">#3e8ff4</color>
+    <color name="gallery17IconBgDisable">#6c3f8ff4</color>
+
+    <!--style 18-->
+    <color name="gallery18colorPrimary">#8dc34c</color>
+    <color name="gallery18colorPrimaryDark">#689e36</color>
+    <color name="gallery18colorAccent">#8dc34c</color>
+    <color name="gallery18indicatorSelectedBg">#6f0d0d0d</color>
+
+    <!--style 19-->
+    <color name="gallery19colorPrimary">#8dc34c</color>
+    <color name="gallery19colorPrimaryDark">#689e36</color>
+    <color name="gallery19colorAccent">#8dc34c</color>
+
+    <!--style 20-->
+    <color name="gallery20colorPrimary">#8dc34c</color>
+    <color name="gallery20colorPrimaryDark">#689e36</color>
+    <color name="gallery20colorAccent">#8dc34c</color>
+    <color name="gallery20indicatorSelectedBg">#6f0d0d0d</color>
+
+    <!--style 21-->
+    <color name="gallery21colorPrimary">#8dc34c</color>
+    <color name="gallery21colorPrimaryDark">#689e36</color>
+    <color name="gallery21colorAccent">#8dc34c</color>
+
+    <!--style 22-->
+    <color name="gallery22colorPrimary">#8dc34c</color>
+    <color name="gallery22colorPrimaryDark">#689e36</color>
+    <color name="gallery22colorAccent">#8dc34c</color>
+    <color name="gallery22fontGray">#a9a9a9</color>
+    <color name="gallery22fontGrayTitle">#f1f1f1</color>
+
+    <!--style 23-->
+    <color name="gallery23colorPrimary">#8dc34c</color>
+    <color name="gallery23colorPrimaryDark">#689e36</color>
+    <color name="gallery23colorAccent">#8dc34c</color>
+    <color name="gallery23fontGray">#a1a1a1</color>
+
+    <!--style 24-->
+    <color name="gallery24iconBg">#5082fb</color>
+
+    <!--style 25-->
+    <color name="gallery25iconBg">#5082fb</color>
+
+
+    <!--==========================================================================================-->
+    <!-- ECOMMERCE -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="ecommerce1colorPrimary">#ff9903</color>
+    <color name="ecommerce1colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce1colorAccent">#ff9903</color>
+    <color name="ecommerce1Foreground">#630a0a0a</color>
+
+    <!--style 2-->
+    <color name="ecommerce2colorPrimary">#ff9903</color>
+    <color name="ecommerce2colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce2colorAccent">#ff9903</color>
+
+    <!--style 3-->
+    <color name="ecommerce3colorPrimary">#ff9903</color>
+    <color name="ecommerce3colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce3colorAccent">#ff9903</color>
+    <color name="ecommerce3fontGray">#c8d9d4d4</color>
+
+    <!--style 4-->
+    <color name="ecommerce4colorPrimary">#ff9903</color>
+    <color name="ecommerce4colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce4colorAccent">#ff9903</color>
+
+    <!--style 5-->
+    <color name="ecommerce5colorPrimary">#ff9903</color>
+    <color name="ecommerce5colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce5colorAccent">#ff9903</color>
+
+    <!--style 6-->
+    <color name="ecommerce6colorPrimary">#ff9903</color>
+    <color name="ecommerce6colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce6colorAccent">#ff9903</color>
+
+    <!--style 7-->
+    <color name="ecommerce7colorPrimary">#ff9903</color>
+    <color name="ecommerce7colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce7colorAccent">#ff9903</color>
+    <color name="ecommerce7background">#f1f5f8</color>
+
+    <!--style 8-->
+    <color name="ecommerce8colorPrimary">#ff9903</color>
+    <color name="ecommerce8colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce8colorAccent">#ff9903</color>
+
+    <!--style 9-->
+    <color name="ecommerce9colorPrimary">#ff9903</color>
+    <color name="ecommerce9colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce9colorAccent">#ff9903</color>
+    <color name="ecommerce9fontGray">#bebebe</color>
+
+    <!--style 10-->
+    <color name="ecommerce10colorPrimary">#ff9903</color>
+    <color name="ecommerce10colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce10colorAccent">#ff9903</color>
+    <color name="ecommerce10fontGray">#a6a6a6</color>
+
+    <!--style 11-->
+    <color name="ecommerce11colorPrimary">#ff9903</color>
+    <color name="ecommerce11colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce11colorAccent">#ff9903</color>
+    <color name="ecommerce11background">#f1f5f8</color>
+    <color name="ecommerce11DescriptionBg">#e6ffffff</color>
+    <color name="ecommerce11SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce11fontSize">#939393</color>
+
+    <!--style 12-->
+    <color name="ecommerce12colorPrimary">#ff9903</color>
+    <color name="ecommerce12colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce12colorAccent">#ff9903</color>
+    <color name="ecommerce12DescriptionBg">#e6ffffff</color>
+    <color name="ecommerce12SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce12fontSize">#939393</color>
+
+    <!--style 13-->
+    <color name="ecommerce13colorPrimary">#ff9903</color>
+    <color name="ecommerce13colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce13colorAccent">#ff9903</color>
+    <color name="ecommerce13background">#f1f5f8</color>
+    <color name="ecommerce13fontTitle">#5c5c5c</color>
+    <color name="ecommerce13fontGray">#bababa</color>
+
+    <!--style 14-->
+    <color name="ecommerce14colorPrimary">#ff9903</color>
+    <color name="ecommerce14colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce14colorAccent">#ff9903</color>
+    <color name="ecommerce14SplitterGray">#70dfdfdf</color>
+
+    <!--style 15-->
+    <color name="ecommerce15colorPrimary">#ff9903</color>
+    <color name="ecommerce15colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce15colorAccent">#ff9903</color>
+    <color name="ecommerce15SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce15ColorBg">#fafafa</color>
+    <color name="ecommerce15fontSize">#939393</color>
+
+    <!--style 16-->
+    <color name="ecommerce16colorPrimary">#ff9903</color>
+    <color name="ecommerce16colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce16colorAccent">#ff9903</color>
+    <color name="ecommerce16DescriptionBg">#e6ffffff</color>
+    <color name="ecommerce16SplitterGray">#70dfdfdf</color>
+
+    <!--style 17-->
+    <color name="ecommerce17colorPrimary">#ff9903</color>
+    <color name="ecommerce17colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce17colorAccent">#ff9903</color>
+    <color name="ecommerce17ItemColor">#bee2d9</color>
+    <color name="ecommerce17fontSize">#939393</color>
+
+    <!--style 18-->
+    <color name="ecommerce18colorPrimary">#ff9903</color>
+    <color name="ecommerce18colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce18colorAccent">#ff9903</color>
+    <color name="ecommerce18DescriptionBg">#e6ffffff</color>
+    <color name="ecommerce18SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce18fontTitle">#5c5c5c</color>
+    <color name="ecommerce18fontSize">#939393</color>
+
+    <!--style 19-->
+    <color name="ecommerce19colorPrimary">#ff9903</color>
+    <color name="ecommerce19colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce19colorAccent">#ff9903</color>
+    <color name="ecommerce19SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce19fontSize">#939393</color>
+
+    <!--style 20-->
+    <color name="ecommerce20colorPrimary">#ff9903</color>
+    <color name="ecommerce20colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce20colorAccent">#ff9903</color>
+    <color name="ecommerce20SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce20indicatorSelectedBg">#22000000</color>
+    <color name="ecommerce20fontSize">#939393</color>
+
+    <!--style 21-->
+    <color name="ecommerce21colorPrimary">#ff9903</color>
+    <color name="ecommerce21colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce21colorAccent">#ff9903</color>
+    <color name="ecommerce21buttonEditBg">#5082ff</color>
+    <color name="ecommerce21buttonDeleteBg">#df3b3a</color>
+
+    <!--style 22-->
+    <color name="ecommerce22colorPrimary">#ff9903</color>
+    <color name="ecommerce22colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce22colorAccent">#ff9903</color>
+    <color name="ecommerce22Bg">#f1f5f8</color>
+    <color name="ecommerce22buttonBg">#5082ff</color>
+
+    <!--style 23-->
+    <color name="ecommerce23colorPrimary">#ff9903</color>
+    <color name="ecommerce23colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce23colorAccent">#ff9903</color>
+    <color name="ecommerce23SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce23fontSize">#939393</color>
+
+    <!--style 24-->
+    <color name="ecommerce24colorPrimary">#ff9903</color>
+    <color name="ecommerce24colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce24colorAccent">#ff9903</color>
+    <color name="ecommerce24background">#f1f5f8</color>
+    <color name="ecommerce24SplitterGray">#70dfdfdf</color>
+
+    <!--style 25-->
+    <color name="ecommerce25colorPrimary">#ff9903</color>
+    <color name="ecommerce25colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce25colorAccent">#ff9903</color>
+    <color name="ecommerce25fontGray">#9e9e9e</color>
+
+    <!--style 26-->
+    <color name="ecommerce26colorPrimary">#ff9903</color>
+    <color name="ecommerce26colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce26colorAccent">#ff9903</color>
+    <color name="ecommerce26SplitterGray">#70dfdfdf</color>
+    <color name="ecommerce26fontGray">#8c8c8c</color>
+
+    <!--style 27-->
+    <color name="ecommerce27colorPrimary">#ff9903</color>
+    <color name="ecommerce27colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce27colorAccent">#ff9903</color>
+    <color name="ecommerce27background">#f1f5f8</color>
+    <color name="ecommerce27buttonBg">#458cff</color>
+
+    <!--style 28-->
+    <color name="ecommerce28colorPrimary">#ff9903</color>
+    <color name="ecommerce28colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce28colorAccent">#ff9903</color>
+    <color name="ecommerce28fontGray">#838383</color>
+
+    <!--style 29-->
+    <color name="ecommerce29colorPrimary">#ff9903</color>
+    <color name="ecommerce29colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce29colorAccent">#ff9903</color>
+
+    <!--style 30-->
+    <color name="ecommerce30colorPrimary">#ff9903</color>
+    <color name="ecommerce30colorPrimaryDark">#f27d04</color>
+    <color name="ecommerce30colorAccent">#ff9903</color>
+    <color name="ecommerce30ImageMask">#4b000000</color>
+
+    <!--==========================================================================================-->
+    <!-- EXTRA DESIGN -->
+    <!--==========================================================================================-->
+
+    <!--extra dialog 1-->
+    <color name="extraDialog1colorPrimary">#3b6dff</color>
+    <color name="extraDialog1colorPrimaryDark">#3951ff</color>
+    <color name="extraDialog1colorAccent">#3b6dff</color>
+
+    <!--extra dialog 2-->
+    <color name="extraDialog2colorPrimary">#3b6dff</color>
+    <color name="extraDialog2colorPrimaryDark">#3951ff</color>
+    <color name="extraDialog2colorAccent">#3b6dff</color>
+
+    <!--extra dialog 3-->
+    <color name="extraDialog3colorPrimary">#3b6dff</color>
+    <color name="extraDialog3colorPrimaryDark">#3951ff</color>
+    <color name="extraDialog3colorAccent">#3b6dff</color>
+    <color name="extraDialog3grayBg">#dcdcdc</color>
+    <color name="extraDialog3FontGray">#949494</color>
+
+    <!--extra left menu 1-->
+    <color name="extraLeftMenu1colorPrimary">#3b6dff</color>
+    <color name="extraLeftMenu1colorPrimaryDark">#3951ff</color>
+    <color name="extraLeftMenu1colorAccent">#3b6dff</color>
+    <color name="extraLeftMenu1menuBg">#ffffff</color>
+    <color name="extraLeftMenu1menuActiveBg">#f1f5f8</color>
+    <color name="extraLeftMenu1menuNotificationBg">#2580fc</color>
+    <color name="extraLeftMenu1menuFontActive">#2580fc</color>
+    <color name="extraLeftMenu1menuFont">#6a6b6c</color>
+
+    <!--extra left menu 2-->
+    <color name="extraLeftMenu2colorPrimary">#3b6dff</color>
+    <color name="extraLeftMenu2colorPrimaryDark">#3951ff</color>
+    <color name="extraLeftMenu2colorAccent">#3b6dff</color>
+    <color name="extraLeftMenu2menuActiveBg">#f1f5f8</color>
+    <color name="extraLeftMenu2menuFontActive">#414141</color>
+    <color name="extraLeftMenu2menuFont">#9b9b9b</color>
+
+    <!--extra left menu 3-->
+    <color name="extraLeftMenu3colorPrimary">#3b6dff</color>
+    <color name="extraLeftMenu3colorPrimaryDark">#3951ff</color>
+    <color name="extraLeftMenu3colorAccent">#3b6dff</color>
+    <color name="extraLeftMenu3menuBg">#2d363c</color>
+    <color name="extraLeftMenu3menuActiveBg">#273136</color>
+    <color name="extraLeftMenu3menuNotificationBg">#2580fc</color>
+    <color name="extraLeftMenu3menuFontActive">#ffffff</color>
+    <color name="extraLeftMenu3menuFont">#c9c9c9</color>
+
+    <!--extra left menu 4-->
+    <color name="extraLeftMenu4colorPrimary">#3b6dff</color>
+    <color name="extraLeftMenu4colorPrimaryDark">#3951ff</color>
+    <color name="extraLeftMenu4colorAccent">#3b6dff</color>
+
+    <!--extra checkbox 1-->
+    <color name="extraCheckbox1colorPrimary">#3b6dff</color>
+    <color name="extraCheckbox1colorPrimaryDark">#3951ff</color>
+    <color name="extraCheckbox1colorAccent">#3b6dff</color>
+    <color name="extraCheckbox1ShopCbNormal">#cfcfcf</color>
+    <color name="extraCheckbox1ShopCbActivated">#3b6dff</color>
+    <color name="extraCheckbox1SplitterGray">#70dfdfdf</color>
+
+    <!--extra checkbox 2-->
+    <color name="extraCheckbox2colorPrimary">#3b6dff</color>
+    <color name="extraCheckbox2colorPrimaryDark">#3951ff</color>
+    <color name="extraCheckbox2colorAccent">#3b6dff</color>
+    <color name="extraCheckbox2Background">#282828</color>
+    <color name="extraCheckbox2ShopCbNormal">#cfcfcf</color>
+    <color name="extraCheckbox2ShopCbActivated">#3b6dff</color>
+    <color name="extraCheckbox2SplitterGray">#70dfdfdf</color>
+
+    <!--extra text light -->
+    <color name="extraTextlightcolorPrimary">#3b6dff</color>
+    <color name="extraTextlightcolorPrimaryDark">#3951ff</color>
+    <color name="extraTextlightcolorAccent">#3b6dff</color>
+    <color name="extraTextlightSplitterGray">#70dfdfdf</color>
+    <color name="extraTextlightTypography2Title">#545454</color>
+    <color name="extraTextlightTypography2Gray">#a4a4a4</color>
+
+    <!--extra text dark -->
+    <color name="extraTextdarkcolorPrimary">#3b6dff</color>
+    <color name="extraTextdarkcolorPrimaryDark">#3951ff</color>
+    <color name="extraTextdarkcolorAccent">#3b6dff</color>
+    <color name="extraTextdarkSplitterGray">#70dfdfdf</color>
+    <color name="extraTextdarkTypography2Title">#ededed</color>
+    <color name="extraTextdarkTypography2Gray">#dedede</color>
+
+    <!--extra search 1 -->
+    <color name="extraSearch1colorPrimary">#3b6dff</color>
+    <color name="extraSearch1colorPrimaryDark">#3951ff</color>
+    <color name="extraSearch1colorAccent">#3b6dff</color>
+
+    <!--extra search 2 -->
+    <color name="extraSearch2colorPrimaryDark">#3951ff</color>
+    <color name="extraSearch2colorAccent">#3b6dff</color>
+    <color name="extraSearch2font">#939393</color>
+    <color name="extraSearch2hintfont">#bababa</color>
+
+    <!--extra search 3 -->
+    <color name="extraSearch3colorPrimaryDark">#3951ff</color>
+    <color name="extraSearch3colorAccent">#3b6dff</color>
+    <color name="extraSearch3Bg">#f1f5f8</color>
+    <color name="extraSearch3InputBg">#dcffffff</color>
+    <color name="extraSearch3font">#939393</color>
+    <color name="extraSearch3hintfont">#bababa</color>
+
+    <!--==========================================================================================-->
+    <!-- MUSIC -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="music1colorPrimary">#232323</color>
+    <color name="music1colorPrimaryDark">#020202</color>
+    <color name="music1colorAccent">#b220cc</color>
+    <color name="music1fontGray">#999696</color>
+    <color name="music1fontRed">#ff3e02</color>
+
+    <!--style 2-->
+    <color name="music2colorPrimary">#232323</color>
+    <color name="music2colorPrimaryDark">#020202</color>
+    <color name="music2colorAccent">#ff3e02</color>
+    <color name="music2fontGray">#999696</color>
+    <color name="music2_gradient_action_bar_start">#6b000000</color>
+    <color name="music2_gradient_action_bar_end">#00ffffff</color>
+    <color name="music2floatingBg">#ff3e02</color>
+
+    <!--style 3-->
+    <color name="music3colorPrimary">#232323</color>
+    <color name="music3colorPrimaryDark">#020202</color>
+    <color name="music3colorAccent">#ff3e02</color>
+    <color name="music3fontGray">#999696</color>
+    <color name="music3fontPlaying">#ff3e02</color>
+    <color name="music3_gradient_action_bar_start">#6b000000</color>
+    <color name="music3_gradient_action_bar_end">#00ffffff</color>
+    <color name="music3floatingBg">#ff3e02</color>
+
+    <!--style 4-->
+    <color name="music4colorPrimary">#232323</color>
+    <color name="music4colorPrimaryDark">#020202</color>
+    <color name="music4colorAccent">#ff3e02</color>
+    <color name="music4seek">#ff3e02</color>
+    <color name="music4seekBg">#999696</color>
+    <color name="music4fontGray">#999696</color>
+
+    <!--style 5-->
+    <color name="music5colorPrimary">#232323</color>
+    <color name="music5colorPrimaryDark">#020202</color>
+    <color name="music5colorAccent">#ff3e02</color>
+    <color name="music5seek">#ff3e02</color>
+    <color name="music5seekBg">#999696</color>
+    <color name="music5fontGray">#999696</color>
+
+    <!--style 6-->
+    <color name="music6colorPrimary">#232323</color>
+    <color name="music6colorPrimaryDark">#020202</color>
+    <color name="music6colorAccent">#ff3e02</color>
+    <color name="music6seekBg">#999696</color>
+
+    <!--style 7-->
+    <color name="music7colorPrimary">#232323</color>
+    <color name="music7colorPrimaryDark">#020202</color>
+    <color name="music7colorAccent">#ff3e02</color>
+    <color name="music7fontGray">#e1e1e1</color>
+    <color name="music7seekBg">#999696</color>
+
+    <!--style 8-->
+    <color name="music8colorPrimary">#232323</color>
+    <color name="music8colorPrimaryDark">#020202</color>
+    <color name="music8colorAccent">#ff3e02</color>
+    <color name="music8fontGray">#999696</color>
+    <color name="music8fontPlaying">#ff3e02</color>
+
+    <!--style 9-->
+    <color name="music9colorPrimary">#232323</color>
+    <color name="music9colorPrimaryDark">#020202</color>
+    <color name="music9colorAccent">#ff3e02</color>
+    <color name="music9fontGray">#999696</color>
+    <color name="music9fontPlaying">#ff3e02</color>
+    <color name="music9_gradient_action_bar_start">#6b000000</color>
+    <color name="music9_gradient_action_bar_end">#00ffffff</color>
+    <color name="music9floatingBg">#ff3e02</color>
+
+    <!--style 10-->
+    <color name="music10colorPrimary">#ff5e38</color>
+    <color name="music10colorPrimaryDark">#ff4e41</color>
+    <color name="music10colorAccent">#232323</color>
+    <color name="music10GradientStart">#ff5e38</color>
+    <color name="music10GradientEnd">#ff1461</color>
+    <color name="music10ButtonLayout">#d60d53</color>
+    <color name="music10ButtonBlack">#000000</color>
+
+    <!--style 11-->
+    <color name="music11colorPrimary">#030303</color>
+    <color name="music11colorPrimaryDark">#020202</color>
+    <color name="music11colorAccent">#ff3e02</color>
+    <color name="music11seek">#ff3e02</color>
+    <color name="music11seekBg">#999696</color>
+    <color name="music11fontGray">#999696</color>
+    <color name="music11fontNextLyric">#ff3e02</color>
+
+    <!--style 12-->
+    <color name="music12colorPrimary">#232323</color>
+    <color name="music12colorPrimaryDark">#020202</color>
+    <color name="music12colorAccent">#ff3e02</color>
+    <color name="music12fontGray">#e1e1e1</color>
+    <color name="music12seekBg">#999696</color>
+
+    <!--style 13-->
+    <color name="music13colorPrimary">#232323</color>
+    <color name="music13colorPrimaryDark">#020202</color>
+    <color name="music13colorAccent">#ff3e02</color>
+
+    <!--style 14-->
+    <color name="music14colorPrimary">#232323</color>
+    <color name="music14colorPrimaryDark">#020202</color>
+    <color name="music14colorAccent">#ff3e02</color>
+
+    <!--style 15-->
+    <color name="music15colorPrimary">#232323</color>
+    <color name="music15colorPrimaryDark">#020202</color>
+    <color name="music15colorAccent">#ff3e02</color>
+
+    <!--==========================================================================================-->
+    <!-- NEWS -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="news1colorPrimary">#ea2064</color>
+    <color name="news1colorPrimaryDark">#b7194e</color>
+    <color name="news1colorAccent">#ea2064</color>
+    <color name="news1Background">#909599</color>
+    <color name="news1ButtonBg">#cc0203</color>
+
+    <!--style 2-->
+    <color name="news2colorPrimary">#8f26aa</color>
+    <color name="news2colorPrimaryDark">#7824a1</color>
+    <color name="news2colorAccent">#8f26aa</color>
+    <color name="news2menuBg">#ffffff</color>
+    <color name="news2menuFont">#818181</color>
+    <color name="news2menuNotificationBg">#cc0203</color>
+
+    <!--style 3-->
+    <color name="news3colorPrimary">#c10c0d</color>
+    <color name="news3colorPrimaryDark">#a50202</color>
+    <color name="news3colorAccent">#232323</color>
+    <color name="news3Background">#c10c0d</color>
+    <color name="news3FooterBg">#232323</color>
+
+    <!--style 4-->
+    <color name="news4colorPrimary">#cc0203</color>
+    <color name="news4colorPrimaryDark">#a50202</color>
+    <color name="news4colorAccent">#ff3e02</color>
+    <color name="news4fontGray">#c7c7c7</color>
+    <color name="news4Button1Bg">#ff5824</color>
+    <color name="news4Button2Bg">#afb42c</color>
+
+    <!--style 5-->
+    <color name="news5colorAccent">#f44337</color>
+    <color name="news5ChatBackground">#f1f5f8</color>
+
+    <!--style 6-->
+    <color name="news6colorPrimary">#cc0203</color>
+    <color name="news6colorPrimaryDark">#a50202</color>
+    <color name="news6colorAccent">#ff3e02</color>
+    <color name="news6fontGray">#c7c7c7</color>
+    <color name="news6fontRamdom1">#cc0203</color>
+    <color name="news6fontRamdom2">#0292ea</color>
+    <color name="news6fontRamdom3">#ff9902</color>
+
+    <!--style 7-->
+    <color name="news7colorAccent">#f44337</color>
+    <color name="news7background">#f1f5f8</color>
+    <color name="news7fontGray">#ababab</color>
+    <color name="news7FooterBg">#f1f5f7</color>
+    <color name="news7ButtonSendText">#cc0203</color>
+
+    <!--==========================================================================================-->
+    <!-- CONTENT -->
+    <!--==========================================================================================-->
+
+    <!--style 1-->
+    <color name="news8colorPrimary">#cc0203</color>
+    <color name="news8colorPrimaryDark">#a50202</color>
+    <color name="news8colorAccent">#ff3e02</color>
+    <color name="news8fontGray">#878787</color>
+    <color name="news8mask">#66000000</color>
+
+    <!--style 2-->
+    <color name="news9colorPrimary">#f44337</color>
+    <color name="news9colorPrimaryDark">#d72d33</color>
+    <color name="news9colorAccent">#f44337</color>
+    <color name="news9fontGray">#999696</color>
+    <color name="news9Splitter">#79999696</color>
+    <color name="news9fontFooter">#ff9902</color>
+
+    <!--style 3-->
+    <color name="news10colorPrimary">#f44337</color>
+    <color name="news10colorPrimaryDark">#d72d33</color>
+    <color name="news10colorAccent">#f44337</color>
+
+    <!--style 4-->
+    <color name="news11colorPrimary">#cc0203</color>
+    <color name="news11colorPrimaryDark">#a50202</color>
+    <color name="news11colorAccent">#ff3e02</color>
+    <color name="news11fontGray">#878787</color>
+    <color name="news11mask">#66000000</color>
+
+    <!--style 5-->
+    <color name="news12colorPrimary">#f44337</color>
+    <color name="news12colorPrimaryDark">#d72d33</color>
+    <color name="news12colorAccent">#f44337</color>
+
+    <!--style 6-->
+    <color name="news13colorPrimary">#f44337</color>
+    <color name="news13colorPrimaryDark">#d72d33</color>
+    <color name="news13colorAccent">#f44337</color>
+
+    <!--style 7-->
+    <color name="news14colorPrimary">#232323</color>
+    <color name="news14colorPrimaryDark">#020202</color>
+    <color name="news14colorAccent">#ff3e02</color>
+    <color name="news14fontGray">#999696</color>
+    <color name="news14_gradient_action_bar_start">#6b000000</color>
+    <color name="news14_gradient_action_bar_end">#00ffffff</color>
+    <color name="news14floatingBg">#ff3e02</color>
+    <color name="news14Splitter">#79999696</color>
+
+    <!--style 8-->
+    <color name="news15colorPrimary">#232323</color>
+    <color name="news15colorPrimaryDark">#020202</color>
+    <color name="news15colorAccent">#ff3e02</color>
+    <color name="news15seek">#ff3e02</color>
+    <color name="news15seekBg">#999696</color>
+    <color name="news15fontGray">#999696</color>
+    <color name="news15ButtonLive">#cc0203</color>
+
+</resources>

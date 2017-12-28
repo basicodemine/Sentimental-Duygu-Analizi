@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="project.twitter.bigdata.twtitteranaliz.ClassYapilari.Aktiviteler.FragmentYapilari.ProjeHakkindaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="Proje Kapsamı ve Detaylar"
+            android:textColor="@android:color/black" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="monospace"
+                android:gravity="start"
+                android:padding="5dp"
+                android:text="Bu projede kişilerin tweetleri PHP ile yazılan bir webservis tarafından çekilip
+ desteklenen takım, en çok kimlerle iletişime geçildiği, mutluluk analizi gibi konularda analiz yapılması hedeflenmiştir. Böylelikle proje temelinde yüksek sayılı karşılaştırmalar yapılması ve tarafımızdan yazılan algoritmalar ile birlikte hedeflenen çıkarımlar yapılmaktadır. Büyük veri ve veri madenciliği konularında sosyal medya üzerinden çıkarımlar yapılması popüler hale gelinmiştir. Bir çok ülke seçim sonuçları da günümüzde metin madenciliği sayesinde önceden tahmin ediliyor. Bu konuda ülkemizde araştırmalar yapılmaması üzerine Android bir uygulama yaratarak bu uygulamayı Github üzerinden paylaşmayı düşünüyoruz. Algoritma olarak Bayesian Sınıflandırması kullanılmıştır."
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

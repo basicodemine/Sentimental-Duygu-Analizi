@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_ahalf_horizontal_margin">5dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="menuNavigation1ButtonWidth">68dp</dimen>
+    <dimen name="menuNavigation1ButtonRadius">34dp</dimen>
+    <dimen name="profile26ButtonWidth">48dp</dimen>
+    <dimen name="profile26ButtonRadius">24dp</dimen>
+    <dimen name="walkthrough1_viewpager_margin">-74dp</dimen>
+    <dimen name="walkthrough6_viewpager_margin">-104dp</dimen>
+    <dimen name="walkthrough15_viewpager_margin">-104dp</dimen>
+    <dimen name="activity17_icon_size">28dp</dimen>
+    <dimen name="activity17_splitter_height">18dp</dimen>
+    <dimen name="activity29_buttonwidth">54dp</dimen>
+    <dimen name="activity29_buttonradius">26dp</dimen>
+    <dimen name="gallery10_viewpager_margin">-74dp</dimen>
+    <dimen name="ecommerce13_viewpager_margin">-54dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

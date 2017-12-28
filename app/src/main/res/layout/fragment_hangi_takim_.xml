@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context="project.twitter.bigdata.twtitteranaliz.ClassYapilari.Aktiviteler.FragmentYapilari.HangiTakim_Fragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:layout_height="1dp">
+
+        <ImageView
+            android:id="@+id/takimlogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/see_bjk"
+            android:layout_width="1dp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="BJK" />
+
+        <Button
+            android:id="@+id/see_fb"
+            android:layout_width="1dp"
+            android:background="#000099"
+            android:textColor="#ffff00"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="FB" />
+
+        <Button
+            android:id="@+id/see_ts"
+            android:background="#660033"
+            android:textColor="@android:color/white"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="TS" />
+
+        <Button
+            android:id="@+id/see_gs"
+            android:background="#cc0000"
+            android:layout_width="1dp"
+            android:textColor="#ffff00"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="GS" />
+
+        <Button
+            android:id="@+id/see_esk"
+            android:background="@android:color/black"
+            android:textColor="#cc0000"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ESK" />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/see_takim_lv"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"></ListView>
+
+</LinearLayout>
