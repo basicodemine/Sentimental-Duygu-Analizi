@@ -13,6 +13,10 @@ Kullanılması gereken web-services.php
 
 
 application/x-httpd-php webservices.php ( PHP script, ASCII text )
+
+```php
+
+
 <?php
 $token = 'kendi bilgilerinizle değiştirin';
 $token_secret = 'kendi bilgilerinizle değiştirin';
@@ -88,3 +92,5 @@ $tweetout .="%%%%%%%";
 echo $tweetout;
 
 ?>
+
+```
