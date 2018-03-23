@@ -1,10 +1,13 @@
 # Metin-Analizi
-Duygu analizi yapan bu uygulamada twitter üzerinden kullanıcının verileri çekilmektedir. 
-Web servisi bağlantılarını isteyen kişiler lütfen iletişime geçsin.
+
+
+![alt text](https://image.ibb.co/hsMJen/twitter.png "Tanıtım")
 
 
 
-geliştirici adresleri: seydaasevgen@gmail.com
+Duygu analizi yapan bu uygulamada Twitter üzerinden kullanıcının verileri çekilmektedir. 
+
+Geliştirici Adresleri: seydaasevgen@gmail.com
                        egemen.ozogul@gmail.com
                        
                      
