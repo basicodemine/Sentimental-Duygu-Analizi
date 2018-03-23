@@ -10,7 +10,9 @@ Duygu analizi yapan bu uygulamada Twitter üzerinden kullanıcının verileri ç
 Geliştirici Adresleri: seydaasevgen@gmail.com
                        egemen.ozogul@gmail.com
                        
-                     
+Playstore Link:
+[Programı buradan indirip deneyebilirsiniz.](https://play.google.com/store/apps/details?id=project.twitter.bigdata.twtitteranaliz "playstore")
+
                      
 Kullanılması gereken web-services.php
 
